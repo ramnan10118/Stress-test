@@ -1531,7 +1531,7 @@
     "promptNumber": "192",
     "category": "Detailed",
     "complexity": "—",
-    "promptText": "Build the mobile add-ons screen for ACKO car insurance. Top: back arrow + \"Add covers\" heading in Typography heading-lg. Below: a vertical list of 5 add-on toggle rows. Each row: icon placeholder (40×40 with semantic background), add-on name in heading-sm, price in body-sm muted, and a toggle on the far right. Use a divider between each row. Bottom: a sticky footer bar with \"Total: ₹6,499\" in heading-md and a full-width \"Continue\" primary Button. Use Button, Typography, and spacing tokens. No native button or input tags. No hardcoded pixel values.",
+    "promptText": "Health insurance onboarding — add family members. Show four people — self, spouse, and two kids. Each person needs their name, age, and an option to edit. Keep each person's info compact and scannable.",
     "folderPath": "",
     "skillFileVersion": "v1"
   },

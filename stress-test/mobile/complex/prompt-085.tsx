@@ -1,253 +1,440 @@
 import { useState } from "react";
-import { ChevronLeft, Phone, MapPin, Clock, CheckCircle, Loader2, Truck, User } from "lucide-react";
 import { Typography } from "@acko/typography";
-import { Card, CardContent } from "@acko/card";
+import { Card, CardInset } from "@acko/card";
 import { Badge } from "@acko/badge";
 import { Button } from "@acko/button";
-import { Progress } from "@acko/progress";
 import { Separator } from "@acko/separator";
+import { Avatar } from "@acko/avatar";
+import {
+  ArrowLeft,
+  Phone,
+  MapPin,
+  Clock,
+  Star,
+  Wrench,
+  Navigation,
+  X,
+} from "lucide-react";
 
-type TrackingState = "searching" | "assigned" | "en_route" | "arrived";
+type RequestStatus = "searching" | "assigned" | "en-route" | "arrived";
 
-const STEPS = [
-  { key: "searching", label: "Searching" },
-  { key: "assigned", label: "Assigned" },
-  { key: "en_route", label: "En route" },
-  { key: "arrived", label: "Arrived" },
-];
-
-const PROVIDER = {
-  name: "Rajesh Kumar",
-  vehicle: "MH 04 KL 9876 · Tata Ace",
-  phone: "+91 98765 43210",
-  eta: "12 min",
-  rating: "4.8",
+const statusConfig: Record<
+  RequestStatus,
+  { label: string; badgeColor: "orange" | "blue" | "green" | "purple"; description: string }
+> = {
+  searching: {
+    label: "Searching",
+    badgeColor: "orange",
+    description: "Looking for a technician near you...",
+  },
+  assigned: {
+    label: "Assigned",
+    badgeColor: "blue",
+    description: "A technician has been assigned to your request.",
+  },
+  "en-route": {
+    label: "En route",
+    badgeColor: "purple",
+    description: "Your technician is on the way.",
+  },
+  arrived: {
+    label: "Arrived",
+    badgeColor: "green",
+    description: "Your technician has arrived at the location.",
+  },
 };
 
-function StateSwitcher({ state, onChange }: { state: TrackingState; onChange: (s: TrackingState) => void }) {
-  return (
-    <div style={{ display: "flex", gap: "var(--space-2)", padding: "var(--space-3) var(--space-4)", background: "var(--color-surface-secondary)", borderBottom: "1px solid var(--color-border-subtle)", justifyContent: "center", flexWrap: "wrap" }}>
-      {(["searching", "assigned", "en_route", "arrived"] as TrackingState[]).map((s) => (
-        <button
-          key={s}
-          type="button"
-          onClick={() => onChange(s)}
-          style={{ background: state === s ? "var(--color-primary)" : "transparent", border: "1px solid var(--color-border-default)", borderRadius: "var(--radius-full)", padding: "var(--space-1) var(--space-3)", cursor: "pointer", touchAction: "manipulation", color: state === s ? "var(--color-on-primary)" : "var(--color-text-muted)" }}
-        >
-          <Typography variant="caption" color={state === s ? undefined : "muted"}>
-            {s === "en_route" ? "En route" : s.charAt(0).toUpperCase() + s.slice(1)}
-          </Typography>
-        </button>
-      ))}
-    </div>
-  );
-}
-
-function StepTracker({ currentState }: { currentState: TrackingState }) {
-  const currentIndex = STEPS.findIndex((s) => s.key === currentState);
-  const progressPercent = Math.round(((currentIndex + 1) / STEPS.length) * 100);
-
-  return (
-    <div>
-      <Progress value={progressPercent} size="sm" color={currentState === "arrived" ? "success" : "primary"} />
-      <div style={{ display: "flex", justifyContent: "space-between", marginTop: "var(--space-2)" }}>
-        {STEPS.map((step, i) => (
-          <Typography key={step.key} variant="caption" color={i <= currentIndex ? (currentState === "arrived" ? "success" : "primary") : "muted"} style={{ textAlign: "center", maxWidth: "var(--scale-64)" }}>
-            {step.label}
-          </Typography>
-        ))}
-      </div>
-    </div>
-  );
-}
-
-function SearchingView() {
-  return (
-    <div style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", padding: "var(--space-10) var(--space-4)", gap: "var(--space-4)" }}>
-      <div style={{ width: "var(--scale-56)", height: "var(--scale-56)", borderRadius: "var(--radius-full)", background: "var(--color-primary-subtle)", display: "flex", alignItems: "center", justifyContent: "center" }}>
-        <Loader2 size={28} aria-hidden="true" style={{ color: "var(--color-primary)", animation: "spin 1.2s linear infinite" }} />
-      </div>
-      <div>
-        <Typography variant="heading-md" weight="semibold" color="strong" style={{ display: "block", marginBottom: "var(--space-2)" }}>
-          Finding help near you
-        </Typography>
-        <Typography variant="body-sm" color="muted">
-          We're locating the nearest service provider. This usually takes 1–2 minutes.
-        </Typography>
-      </div>
-      <style>{`@keyframes spin { to { transform: rotate(360deg); } }`}</style>
-    </div>
-  );
-}
-
-function ProviderCard({ state }: { state: TrackingState }) {
-  return (
-    <Card variant="default" padding="none">
-      <CardContent>
-        <div style={{ display: "flex", alignItems: "flex-start", gap: "var(--space-3)", marginBottom: "var(--space-4)" }}>
-          <div style={{ width: "var(--scale-44)", height: "var(--scale-44)", borderRadius: "var(--radius-full)", background: "var(--color-surface-secondary)", display: "flex", alignItems: "center", justifyContent: "center", color: "var(--color-text-muted)", flexShrink: 0 }}>
-            <User size={22} aria-hidden="true" />
-          </div>
-          <div style={{ flex: 1, minWidth: 0 }}>
-            <div style={{ display: "flex", alignItems: "center", gap: "var(--space-2)", marginBottom: "var(--space-1)" }}>
-              <Typography variant="label-lg" weight="semibold" color="strong">{PROVIDER.name}</Typography>
-              <Badge color="green" size="sm">{PROVIDER.rating} ★</Badge>
-            </div>
-            <Typography variant="body-sm" color="muted" style={{ display: "block" }}>{PROVIDER.vehicle}</Typography>
-          </div>
-          <a
-            href={`tel:${PROVIDER.phone}`}
-            aria-label={`Call ${PROVIDER.name}`}
-            style={{ width: "var(--scale-44)", height: "var(--scale-44)", borderRadius: "var(--radius-full)", background: "var(--color-success-subtle)", display: "flex", alignItems: "center", justifyContent: "center", color: "var(--color-success)", flexShrink: 0, touchAction: "manipulation", textDecoration: "none" }}
-          >
-            <Phone size={18} aria-hidden="true" />
-          </a>
-        </div>
-
-        <Separator />
-
-        <div style={{ display: "flex", justifyContent: "space-between", marginTop: "var(--space-4)" }}>
-          {state === "en_route" && (
-            <>
-              <div style={{ display: "flex", alignItems: "center", gap: "var(--space-2)" }}>
-                <Clock size={14} aria-hidden="true" style={{ color: "var(--color-primary)" }} />
-                <Typography variant="label-md" weight="medium" color="strong">ETA {PROVIDER.eta}</Typography>
-              </div>
-              <div style={{ display: "flex", alignItems: "center", gap: "var(--space-2)" }}>
-                <Truck size={14} aria-hidden="true" style={{ color: "var(--color-text-muted)" }} />
-                <Typography variant="caption" color="muted">On the way</Typography>
-              </div>
-            </>
-          )}
-          {state === "assigned" && (
-            <div style={{ display: "flex", alignItems: "center", gap: "var(--space-2)" }}>
-              <CheckCircle size={14} aria-hidden="true" style={{ color: "var(--color-success)" }} />
-              <Typography variant="label-md" weight="medium" color="strong">Provider confirmed</Typography>
-            </div>
-          )}
-          {state === "arrived" && (
-            <div style={{ display: "flex", alignItems: "center", gap: "var(--space-2)" }}>
-              <CheckCircle size={14} aria-hidden="true" style={{ color: "var(--color-success)" }} />
-              <Typography variant="label-md" weight="medium" color="success">Help has arrived</Typography>
-            </div>
-          )}
-        </div>
-      </CardContent>
-    </Card>
-  );
-}
-
-function ArrivedView() {
-  return (
-    <div style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", padding: "var(--space-6) var(--space-4)", gap: "var(--space-2)" }}>
-      <div style={{ width: "var(--scale-56)", height: "var(--scale-56)", borderRadius: "var(--radius-full)", background: "var(--color-success-subtle)", display: "flex", alignItems: "center", justifyContent: "center", color: "var(--color-success)", marginBottom: "var(--space-2)" }}>
-        <CheckCircle size={28} strokeWidth={1.5} aria-hidden="true" />
-      </div>
-      <Typography variant="heading-md" weight="semibold" color="strong">
-        Help has arrived
-      </Typography>
-      <Typography variant="body-sm" color="muted" style={{ maxWidth: 280 }}>
-        Your service provider is at your location. Stay safe.
-      </Typography>
-    </div>
-  );
-}
-
 export default function Prompt085() {
-  const [state, setState] = useState<TrackingState>("en_route");
+  const [status] = useState<RequestStatus>("en-route");
+  const config = statusConfig[status];
 
   return (
-    <div style={{ minHeight: "100vh", background: "var(--color-surface)", display: "flex", flexDirection: "column" }}>
+    <div className="p085-root">
+      <style>{`
+        .p085-root {
+          min-height: 100vh;
+          background: var(--color-surface);
+          display: flex;
+          flex-direction: column;
+        }
+
+        .p085-container {
+          width: 100%;
+          max-width: 1280px;
+          margin: 0 auto;
+          padding-inline: var(--space-4);
+        }
+
+        @media (min-width: 768px) {
+          .p085-container {
+            padding-inline: var(--space-8);
+          }
+        }
+
+        @media (min-width: 1024px) {
+          .p085-container {
+            padding-inline: var(--space-10);
+          }
+        }
+
+        .p085-header {
+          display: flex;
+          align-items: center;
+          gap: var(--space-3);
+          padding-block: var(--space-4);
+        }
+
+        .p085-back-btn {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: var(--scale-44);
+          height: var(--scale-44);
+          border: none;
+          background: transparent;
+          cursor: pointer;
+          border-radius: var(--radius-lg);
+          color: var(--color-text-primary);
+          touch-action: manipulation;
+          position: relative;
+        }
+
+        @media (hover: hover) and (pointer: fine) {
+          .p085-back-btn:hover {
+            background: var(--color-surface-secondary);
+          }
+        }
+
+        .p085-back-btn:focus-visible {
+          outline: 2px solid var(--color-primary);
+          outline-offset: var(--scale-2);
+          border-radius: var(--radius-sm);
+        }
+
+        .p085-content {
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          gap: var(--space-4);
+          padding-bottom: var(--space-4);
+        }
+
+        .p085-status-section {
+          display: flex;
+          flex-direction: column;
+          gap: var(--space-3);
+        }
+
+        .p085-status-row {
+          display: flex;
+          align-items: center;
+          gap: var(--space-3);
+        }
+
+        .p085-eta-row {
+          display: flex;
+          align-items: center;
+          gap: var(--space-2);
+        }
+
+        .p085-map-placeholder {
+          width: 100%;
+          aspect-ratio: 16 / 9;
+          border-radius: var(--radius-inset-lg);
+          background: var(--color-surface-secondary);
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          gap: var(--space-2);
+          color: var(--color-text-secondary);
+        }
+
+        .p085-tech-row {
+          display: flex;
+          align-items: center;
+          gap: var(--space-4);
+        }
+
+        .p085-tech-info {
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          gap: var(--space-1);
+          min-width: 0;
+        }
+
+        .p085-tech-name-row {
+          display: flex;
+          align-items: center;
+          gap: var(--space-2);
+          flex-wrap: wrap;
+        }
+
+        .p085-rating {
+          display: flex;
+          align-items: center;
+          gap: var(--space-1);
+        }
+
+        .p085-call-btn {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: var(--scale-44);
+          height: var(--scale-44);
+          border: none;
+          background: var(--color-surface-secondary);
+          cursor: pointer;
+          border-radius: var(--radius-full);
+          color: var(--color-primary);
+          flex-shrink: 0;
+          touch-action: manipulation;
+        }
+
+        @media (hover: hover) and (pointer: fine) {
+          .p085-call-btn:hover {
+            background: var(--color-primary);
+            color: var(--color-card-bg);
+          }
+        }
+
+        .p085-call-btn:focus-visible {
+          outline: 2px solid var(--color-primary);
+          outline-offset: var(--scale-2);
+          border-radius: var(--radius-full);
+        }
+
+        .p085-vehicle-row {
+          display: flex;
+          align-items: center;
+          gap: var(--space-3);
+          padding-top: var(--space-3);
+        }
+
+        .p085-vehicle-icon {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: var(--scale-36);
+          height: var(--scale-36);
+          border-radius: var(--radius-inset-lg);
+          background: var(--color-surface-secondary);
+          color: var(--color-text-secondary);
+          flex-shrink: 0;
+        }
+
+        .p085-request-details {
+          display: flex;
+          flex-direction: column;
+          gap: var(--space-3);
+        }
+
+        .p085-detail-row {
+          display: flex;
+          align-items: flex-start;
+          gap: var(--space-3);
+        }
+
+        .p085-detail-icon {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: var(--scale-20);
+          height: var(--scale-20);
+          color: var(--color-text-secondary);
+          flex-shrink: 0;
+          margin-top: var(--scale-2);
+        }
+
+        .p085-footer {
+          position: sticky;
+          bottom: 0;
+          background: var(--color-surface);
+          border-top: var(--border-hairline) solid var(--color-border);
+          padding-block: var(--space-4);
+          padding-bottom: calc(var(--space-4) + env(safe-area-inset-bottom));
+        }
+
+        .p085-footer-inner {
+          width: 100%;
+          max-width: 1280px;
+          margin: 0 auto;
+          padding-inline: var(--space-4);
+        }
+
+        @media (min-width: 768px) {
+          .p085-footer-inner {
+            padding-inline: var(--space-8);
+          }
+        }
+
+        @media (min-width: 1024px) {
+          .p085-footer-inner {
+            padding-inline: var(--space-10);
+          }
+        }
+      `}</style>
+
       {/* Header */}
-      <header style={{ background: "var(--grey-white)", borderBottom: "1px solid var(--color-border-subtle)", padding: "0 var(--space-4)", height: "var(--scale-56)", display: "flex", alignItems: "center", justifyContent: "space-between", position: "sticky", top: 0, zIndex: "var(--z-sticky)" }}>
-        <button type="button" aria-label="Go back" style={{ background: "none", border: "none", cursor: "pointer", padding: "var(--space-2)", minWidth: "var(--scale-44)", minHeight: "var(--scale-44)", display: "flex", alignItems: "center", justifyContent: "center", touchAction: "manipulation", color: "var(--color-text-strong)" }}>
-          <ChevronLeft size={20} aria-hidden="true" />
-        </button>
-        <Typography variant="label-lg" weight="semibold" color="strong">Roadside assistance</Typography>
-        <div style={{ width: "var(--scale-44)" }} />
-      </header>
+      <div className="p085-container">
+        <div className="p085-header">
+          <button className="p085-back-btn" aria-label="Go back" type="button">
+            <ArrowLeft size={20} aria-hidden="true" />
+          </button>
+          <Typography variant="heading-lg" weight="semibold" as="h1">
+            Roadside assistance
+          </Typography>
+        </div>
+      </div>
 
-      {/* State switcher (demo) */}
-      <StateSwitcher state={state} onChange={setState} />
+      {/* Main content */}
+      <div className="p085-container">
+        <div className="p085-content">
 
-      <main style={{ flex: 1, padding: "var(--space-6) var(--space-4)", maxWidth: 480, margin: "0 auto", width: "100%", display: "flex", flexDirection: "column", gap: "var(--space-6)" }}>
-        {/* Step tracker */}
-        <StepTracker currentState={state} />
-
-        {/* Request summary */}
-        <Card variant="demoted" padding="none">
-          <CardContent>
-            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start" }}>
-              <div>
-                <Typography variant="label-lg" weight="semibold" color="strong" style={{ display: "block", marginBottom: "var(--space-1)" }}>
-                  Flat tyre
-                </Typography>
-                <div style={{ display: "flex", alignItems: "center", gap: "var(--space-2)" }}>
-                  <MapPin size={12} aria-hidden="true" style={{ color: "var(--color-text-muted)" }} />
-                  <Typography variant="caption" color="muted">Andheri West, Mumbai</Typography>
-                </div>
+          {/* Status section */}
+          <Card padding="md">
+            <div className="p085-status-section">
+              <div className="p085-status-row">
+                <Badge variant="solid" color={config.badgeColor} size="sm">
+                  {config.label}
+                </Badge>
               </div>
-              <Typography variant="caption" color="muted">Req #RSA-4821</Typography>
-            </div>
-          </CardContent>
-        </Card>
-
-        {/* State-specific content */}
-        {state === "searching" && <SearchingView />}
-
-        {(state === "assigned" || state === "en_route" || state === "arrived") && (
-          <ProviderCard state={state} />
-        )}
-
-        {state === "arrived" && <ArrivedView />}
-
-        {/* Map placeholder */}
-        {(state === "en_route" || state === "assigned") && (
-          <Card variant="default" padding="none">
-            <div style={{ height: "var(--scale-160, 200px)", background: "var(--color-surface-secondary)", borderRadius: "var(--radius-lg)", display: "flex", alignItems: "center", justifyContent: "center" }}>
-              <div style={{ textAlign: "center" }}>
-                <MapPin size={24} aria-hidden="true" style={{ color: "var(--color-text-muted)", marginBottom: "var(--space-2)" }} />
-                <Typography variant="body-sm" color="muted">Live map tracking</Typography>
+              <Typography variant="heading-md" weight="semibold">
+                Help is on the way
+              </Typography>
+              <Typography variant="body-sm" color="muted">
+                {config.description}
+              </Typography>
+              <div className="p085-eta-row">
+                <Clock size={16} color="var(--color-text-secondary)" aria-hidden="true" />
+                <Typography variant="body-md" weight="medium">
+                  ETA: 12 minutes
+                </Typography>
               </div>
             </div>
           </Card>
-        )}
 
-        {/* Help */}
-        <div style={{ display: "flex", alignItems: "center", gap: "var(--space-2)", justifyContent: "center" }}>
-          <Phone size={14} aria-hidden="true" style={{ color: "var(--color-text-muted)" }} />
-          <Typography variant="caption" color="muted">
-            Need urgent help? Call 1800-266-2256
-          </Typography>
-        </div>
-      </main>
+          {/* Live location placeholder */}
+          <Card padding="md">
+            <div style={{ display: "flex", flexDirection: "column", gap: "var(--space-3)" }}>
+              <Typography variant="heading-sm" weight="semibold" as="h2">
+                Live location
+              </Typography>
+              <CardInset>
+                <div className="p085-map-placeholder" role="img" aria-label="Map showing technician location">
+                  <Navigation size={24} aria-hidden="true" />
+                  <Typography variant="body-sm" color="muted">
+                    Live map view
+                  </Typography>
+                </div>
+              </CardInset>
+            </div>
+          </Card>
 
-      {/* Bottom CTA — context changes by state */}
-      {state !== "searching" && (
-        <div style={{ background: "var(--grey-white)", borderTop: "1px solid var(--color-border-subtle)", padding: "var(--space-4)", paddingBottom: "calc(var(--space-4) + env(safe-area-inset-bottom))", position: "sticky", bottom: 0, zIndex: "var(--z-sticky)" }}>
-          <div style={{ maxWidth: 480, margin: "0 auto" }}>
-            {state === "arrived" ? (
-              <Button type="button" variant="primary" size="lg" fullWidth>
-                Rate your experience
-              </Button>
-            ) : (
-              <div style={{ display: "flex", gap: "var(--space-3)" }}>
-                <Button type="button" variant="outline" size="lg" style={{ flex: 1 }}>
-                  Cancel request
-                </Button>
-                <a
-                  href={`tel:${PROVIDER.phone}`}
-                  style={{ flex: 1, display: "contents", textDecoration: "none" }}
+          {/* Technician details */}
+          <Card padding="md">
+            <div style={{ display: "flex", flexDirection: "column", gap: "var(--space-4)" }}>
+              <Typography variant="heading-sm" weight="semibold" as="h2">
+                Technician details
+              </Typography>
+
+              <div className="p085-tech-row">
+                <Avatar initials="RK" size="lg" alt="Rajesh Kumar" />
+                <div className="p085-tech-info">
+                  <div className="p085-tech-name-row">
+                    <Typography variant="body-md" weight="medium">
+                      Rajesh Kumar
+                    </Typography>
+                    <div className="p085-rating">
+                      <Star size={14} color="var(--color-warning)" fill="var(--color-warning)" aria-hidden="true" />
+                      <Typography variant="caption" color="muted">
+                        4.8
+                      </Typography>
+                    </div>
+                  </div>
+                  <Typography variant="body-sm" color="muted">
+                    5 years experience · 320 assists
+                  </Typography>
+                </div>
+                <button
+                  className="p085-call-btn"
+                  type="button"
+                  aria-label="Call Rajesh Kumar"
                 >
-                  <Button type="button" variant="primary" size="lg" style={{ flex: 1, touchAction: "manipulation" }}>
-                    Call provider
-                  </Button>
-                </a>
+                  <Phone size={20} aria-hidden="true" />
+                </button>
               </div>
-            )}
-          </div>
+
+              <Separator />
+
+              <div className="p085-vehicle-row">
+                <div className="p085-vehicle-icon">
+                  <Wrench size={18} aria-hidden="true" />
+                </div>
+                <div>
+                  <Typography variant="body-sm" weight="medium">
+                    Service vehicle
+                  </Typography>
+                  <Typography variant="caption" color="muted">
+                    White Mahindra Bolero · KA-05-MN-9876
+                  </Typography>
+                </div>
+              </div>
+            </div>
+          </Card>
+
+          {/* Request details */}
+          <Card padding="md" variant="demoted">
+            <div className="p085-request-details">
+              <Typography variant="heading-sm" weight="semibold" as="h2">
+                Request details
+              </Typography>
+              <div className="p085-detail-row">
+                <div className="p085-detail-icon">
+                  <Wrench size={16} aria-hidden="true" />
+                </div>
+                <div>
+                  <Typography variant="body-sm" weight="medium">
+                    Flat tyre
+                  </Typography>
+                  <Typography variant="caption" color="muted">
+                    Rear left tyre — requested at 2:45 PM
+                  </Typography>
+                </div>
+              </div>
+              <div className="p085-detail-row">
+                <div className="p085-detail-icon">
+                  <MapPin size={16} aria-hidden="true" />
+                </div>
+                <div>
+                  <Typography variant="body-sm" weight="medium">
+                    Pickup location
+                  </Typography>
+                  <Typography variant="caption" color="muted">
+                    Near Silk Board Junction, Bengaluru
+                  </Typography>
+                </div>
+              </div>
+            </div>
+          </Card>
+
         </div>
-      )}
+      </div>
+
+      {/* Sticky footer — cancel request */}
+      <div className="p085-footer">
+        <div className="p085-footer-inner">
+          <Button
+            variant="danger"
+            size="lg"
+            fullWidth
+            iconLeft={<X size={18} />}
+          >
+            Cancel request
+          </Button>
+        </div>
+      </div>
     </div>
   );
 }

@@ -197,7 +197,7 @@ const prompts = [
   { number: "178", category: "General", complexity: "Simple", label: "Claim status tracker" },
   { number: "179", category: "General", complexity: "Simple", label: "Vehicle details" },
   { number: "180", category: "General", complexity: "Simple", label: "Payment success receipt" },
-  { number: "181", category: "General", complexity: "Simple", label: "Quick quote result" },
+  { number: "181", category: "Detailed", complexity: "Detailed", label: "Blog listing page" },
   // Detailed
   { number: "184", category: "Detailed", complexity: "Detailed", label: "Quote results screen" },
   { number: "185", category: "Detailed", complexity: "Detailed", label: "Add-ons selection screen" },
@@ -205,6 +205,9 @@ const prompts = [
   { number: "196", category: "Detailed", complexity: "Detailed", label: "Claim filing initiation" },
   { number: "197", category: "Detailed", complexity: "Detailed", label: "Claim status tracking" },
   { number: "203", category: "Detailed", complexity: "Detailed", label: "Dark mode claims filing" },
+  { number: "192", category: "Detailed", complexity: "Detailed", label: "Health insurance — add family members" },
+  { number: "193", category: "Detailed", complexity: "Detailed", label: "Car insurance claim timeline" },
+  { number: "193", category: "Detailed", complexity: "Detailed", label: "Car claim status timeline" },
   { number: "204", category: "Detailed", complexity: "Detailed", label: "Dark mode policy confirmation" },
   // Iteration chain 206–215: Plan selection screen evolving through 10 review rounds
   { number: "206", category: "Detailed", complexity: "Detailed", label: "Iter 1 — Base plan selection" },
