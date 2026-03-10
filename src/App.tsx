@@ -1,4 +1,4 @@
-import StressTestViewer from "./StressTestViewer"
+import StressTestViewer from "./stressTestViewer"
 
 function App() {
   return <StressTestViewer />
