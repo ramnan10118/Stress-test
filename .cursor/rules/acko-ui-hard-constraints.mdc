@@ -1,0 +1,45 @@
+---
+description: ACKO UI hard constraints — typography, tokens, icons. Applies to all .tsx files.
+globs: **/*.tsx
+alwaysApply: false
+---
+
+# ACKO UI Hard Constraints
+
+These rules apply to EVERY React component you generate. No exceptions.
+
+## Typography
+- ALL text MUST use `<Typography variant="..." weight="...">`. Never use raw `<h1>`, `<h2>`, `<p>`, `<span>` with inline font styles.
+- Never set `fontSize`, `fontWeight`, or `fontFamily` inline on any element.
+- The Euclid Circular B font loads globally via `@acko/css` — do NOT set `fontFamily` anywhere in a component.
+
+## Spacing & Colour
+- ALL spacing MUST use `var(--space-*)` tokens. Never use hardcoded px values (e.g. `padding: "16px"` ❌).
+- ALL colours MUST use semantic tokens: `var(--color-primary)`, `var(--color-text-strong)`, `var(--color-surface)`, etc. Never use hex codes or raw colour names.
+- Border radius MUST use `var(--radius-*)` tokens. Never use `borderRadius: "8px"`.
+
+## Icons
+- UI icons MUST come from `lucide-react`. Never write inline SVGs for icons.
+
+## Animations
+- `transition: all` is BANNED. Always target specific properties: `transition: "opacity 0.2s ease, transform 0.2s ease"`.
+- Always respect `prefers-reduced-motion` — use `useReducedMotion()` from `framer-motion` or a CSS `@media (prefers-reduced-motion: reduce)` guard.
+
+## Accessibility
+- Interactive elements must have `touchAction: "manipulation"`.
+- Use `role`, `aria-checked`, `tabIndex`, and `onKeyDown` on custom interactive elements.
+
+---
+
+## Re-read Skill Files at the Start of Every Batch
+
+Before generating any file in a generation task, ALWAYS read these files in order:
+
+1. `/Users/ramnan.arumugam/.cursor/skills/acko-design-system/SKILL.md`
+2. `/Users/ramnan.arumugam/.cursor/skills/acko-design-system/ui-polish.md`
+3. `/Users/ramnan.arumugam/.cursor/skills/acko-design-system/primitives.md`
+4. `/Users/ramnan.arumugam/.cursor/skills/acko-design-system/animations.md`
+5. `/Users/ramnan.arumugam/.cursor/skills/acko-design-system/forms-controls.md`
+6. `/Users/ramnan.arumugam/.cursor/skills/acko-design-system/touch-accessibility.md`
+
+Do not skip any file. Do not rely on memory from a previous conversation or summary.

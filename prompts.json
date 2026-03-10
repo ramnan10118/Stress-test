@@ -1,0 +1,1722 @@
+[
+  {
+    "promptNumber": "1",
+    "category": "Website",
+    "complexity": "Simple",
+    "promptText": "Build an ACKO car insurance landing page hero section with a headline, subtext, one primary CTA and one secondary CTA.",
+    "folderPath": "stress-test/website/simple/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "2",
+    "category": "Website",
+    "complexity": "Simple",
+    "promptText": "Build an ACKO health insurance hero section with a headline focused on family protection, a subtext, and a get quote CTA.",
+    "folderPath": "stress-test/website/simple/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "3",
+    "category": "Website",
+    "complexity": "Simple",
+    "promptText": "Build an ACKO travel insurance hero section with a destination search input, travel dates, and a search CTA.",
+    "folderPath": "stress-test/website/simple/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "4",
+    "category": "Website",
+    "complexity": "Simple",
+    "promptText": "Build an ACKO roadside assistance hero section showing the key benefit — help within 30 minutes — with a call to action.",
+    "folderPath": "stress-test/website/simple/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "5",
+    "category": "Website",
+    "complexity": "Simple",
+    "promptText": "Build an ACKO challan check hero section with a vehicle number input and a check now CTA.",
+    "folderPath": "stress-test/website/simple/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "6",
+    "category": "Website",
+    "complexity": "Simple",
+    "promptText": "Build a trust bar for ACKO showing four stats — 50 lakh customers, 3-day claim settlement, 5000 plus garages, 24x7 support.",
+    "folderPath": "stress-test/website/simple/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "7",
+    "category": "Website",
+    "complexity": "Simple",
+    "promptText": "Build an ACKO car insurance features section listing three key benefits with icons — instant policy, low premiums, fast claims.",
+    "folderPath": "stress-test/website/simple/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "8",
+    "category": "Website",
+    "complexity": "Simple",
+    "promptText": "Build an ACKO header with logo, navigation links — Car, Health, Travel, Challan — and a get quote CTA button.",
+    "folderPath": "stress-test/website/simple/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "9",
+    "category": "Website",
+    "complexity": "Simple",
+    "promptText": "Build an ACKO footer with logo, four navigation columns — Products, Company, Support, Legal — and a copyright line.",
+    "folderPath": "stress-test/website/simple/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "10",
+    "category": "Website",
+    "complexity": "Simple",
+    "promptText": "Build an ACKO car insurance renewal reminder banner with a policy expiry date, premium amount, and renew now CTA.",
+    "folderPath": "stress-test/website/simple/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "11",
+    "category": "Website",
+    "complexity": "Medium",
+    "promptText": "Build an ACKO car insurance landing page with a hero section, a how it works section with 3 steps, and a trust bar.",
+    "folderPath": "stress-test/website/medium/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "12",
+    "category": "Website",
+    "complexity": "Medium",
+    "promptText": "Build an ACKO health insurance landing page with a hero section, a family coverage benefits section, and customer testimonials.",
+    "folderPath": "stress-test/website/medium/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "13",
+    "category": "Website",
+    "complexity": "Medium",
+    "promptText": "Build an ACKO travel insurance landing page with a hero section, a coverage highlights section, and a FAQ section with 3 questions.",
+    "folderPath": "stress-test/website/medium/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "14",
+    "category": "Website",
+    "complexity": "Medium",
+    "promptText": "Build an ACKO roadside assistance landing page with a hero section, a services grid showing 6 services, and a how to request help section.",
+    "folderPath": "stress-test/website/medium/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "15",
+    "category": "Website",
+    "complexity": "Medium",
+    "promptText": "Build an ACKO challan check landing page with a hero section with vehicle number input, a how it works section, and a what is challan explainer section.",
+    "folderPath": "stress-test/website/medium/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "16",
+    "category": "Website",
+    "complexity": "Medium",
+    "promptText": "Build an ACKO car insurance comparison section showing ACKO vs traditional insurers across 5 parameters — price, claim speed, paperwork, support, digital experience.",
+    "folderPath": "stress-test/website/medium/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "17",
+    "category": "Website",
+    "complexity": "Medium",
+    "promptText": "Build an ACKO health insurance plans section showing three plan tiers — individual, family, senior — with pricing and key features per plan.",
+    "folderPath": "stress-test/website/medium/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "18",
+    "category": "Website",
+    "complexity": "Medium",
+    "promptText": "Build an ACKO car insurance page section that busts 3 common myths about car insurance with myth and reality cards.",
+    "folderPath": "stress-test/website/medium/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "19",
+    "category": "Website",
+    "complexity": "Medium",
+    "promptText": "Build an ACKO travel insurance page with a coverage section showing what is covered and what is not covered in two columns.",
+    "folderPath": "stress-test/website/medium/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "20",
+    "category": "Website",
+    "complexity": "Medium",
+    "promptText": "Build an ACKO testimonials section with one featured large testimonial and two smaller supporting testimonials.",
+    "folderPath": "stress-test/website/medium/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "21",
+    "category": "Website",
+    "complexity": "Complex",
+    "promptText": "Build a full ACKO car insurance landing page with header, hero with quote form, how it works section, benefits grid, testimonials, and footer.",
+    "folderPath": "stress-test/website/complex/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "22",
+    "category": "Website",
+    "complexity": "Complex",
+    "promptText": "Build a full ACKO health insurance landing page with header, hero, plan comparison table, coverage details, FAQ accordion, and footer.",
+    "folderPath": "stress-test/website/complex/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "23",
+    "category": "Website",
+    "complexity": "Complex",
+    "promptText": "Build a full ACKO travel insurance landing page with header, destination search hero, coverage highlights, claim process steps, testimonials, and footer.",
+    "folderPath": "stress-test/website/complex/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "24",
+    "category": "Website",
+    "complexity": "Complex",
+    "promptText": "Build a full ACKO roadside assistance landing page with header, hero, 6-service grid, how to request help steps, pricing section, and footer.",
+    "folderPath": "stress-test/website/complex/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "25",
+    "category": "Website",
+    "complexity": "Complex",
+    "promptText": "Build a full ACKO challan check page with header, vehicle number input hero, results section showing challan details, payment CTA, and footer.",
+    "folderPath": "stress-test/website/complex/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "26",
+    "category": "Website",
+    "complexity": "Complex",
+    "promptText": "Build an ACKO car insurance page with a hero, an interactive coverage calculator section, a plan recommendation card, and a buy now CTA.",
+    "folderPath": "stress-test/website/complex/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "27",
+    "category": "Website",
+    "complexity": "Complex",
+    "promptText": "Build an ACKO health insurance page with a hero, a family size selector, a coverage needs explainer, plan cards, and a get quote CTA.",
+    "folderPath": "stress-test/website/complex/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "28",
+    "category": "Website",
+    "complexity": "Complex",
+    "promptText": "Build an ACKO car insurance claims page with a hero, a step-by-step claims process section, a garage locator section, and a file claim CTA.",
+    "folderPath": "stress-test/website/complex/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "29",
+    "category": "Website",
+    "complexity": "Complex",
+    "promptText": "Build an ACKO travel insurance page with a multi-destination trip builder, coverage summary, traveller details form, and a get quote CTA.",
+    "folderPath": "stress-test/website/complex/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "30",
+    "category": "Website",
+    "complexity": "Complex",
+    "promptText": "Build an ACKO car insurance renewal page with current policy details, premium breakdown, add-on options, and a renew now CTA.",
+    "folderPath": "stress-test/website/complex/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "31",
+    "category": "Purchase Journey",
+    "complexity": "Simple",
+    "promptText": "Build an ACKO car insurance vehicle number entry screen with a single input field, helper text, and a continue CTA.",
+    "folderPath": "stress-test/purchase-journey/simple/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "32",
+    "category": "Purchase Journey",
+    "complexity": "Simple",
+    "promptText": "Build an ACKO car insurance vehicle details confirmation screen showing make, model, variant, and year with an edit option and continue CTA.",
+    "folderPath": "stress-test/purchase-journey/simple/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "33",
+    "category": "Purchase Journey",
+    "complexity": "Simple",
+    "promptText": "Build an ACKO plan selection screen showing three plan cards — third party, comprehensive, and zero depreciation — with pricing.",
+    "folderPath": "stress-test/purchase-journey/simple/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "34",
+    "category": "Purchase Journey",
+    "complexity": "Simple",
+    "promptText": "Build an ACKO add-ons selection screen with 4 add-on options — zero depreciation, roadside assistance, engine protection, consumables cover.",
+    "folderPath": "stress-test/purchase-journey/simple/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "35",
+    "category": "Purchase Journey",
+    "complexity": "Simple",
+    "promptText": "Build an ACKO payment screen showing premium summary and payment method options — UPI, card, net banking.",
+    "folderPath": "stress-test/purchase-journey/simple/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "36",
+    "category": "Purchase Journey",
+    "complexity": "Simple",
+    "promptText": "Build an ACKO policy confirmation screen showing policy number, coverage dates, and a download policy CTA.",
+    "folderPath": "stress-test/purchase-journey/simple/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "37",
+    "category": "Purchase Journey",
+    "complexity": "Simple",
+    "promptText": "Build an ACKO car insurance owner details form with fields for name, mobile number, and email.",
+    "folderPath": "stress-test/purchase-journey/simple/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "38",
+    "category": "Purchase Journey",
+    "complexity": "Simple",
+    "promptText": "Build an ACKO car insurance previous policy details screen asking for insurer name, policy expiry date, and no claim bonus.",
+    "folderPath": "stress-test/purchase-journey/simple/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "39",
+    "category": "Purchase Journey",
+    "complexity": "Simple",
+    "promptText": "Build an ACKO OTP verification screen with a 6-digit OTP input, resend OTP option, and verify CTA.",
+    "folderPath": "stress-test/purchase-journey/simple/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "40",
+    "category": "Purchase Journey",
+    "complexity": "Simple",
+    "promptText": "Build an ACKO car insurance premium display screen showing the base premium, GST, and total amount with a proceed to pay CTA.",
+    "folderPath": "stress-test/purchase-journey/simple/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "41",
+    "category": "Purchase Journey",
+    "complexity": "Medium",
+    "promptText": "Build an ACKO car insurance plan selection screen with three plan cards, a feature comparison table below the cards, and a select plan CTA.",
+    "folderPath": "stress-test/purchase-journey/medium/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "42",
+    "category": "Purchase Journey",
+    "complexity": "Medium",
+    "promptText": "Build an ACKO add-ons screen with 6 add-on cards, each showing price, description, and a toggle to add or remove. Running total shown at bottom.",
+    "folderPath": "stress-test/purchase-journey/medium/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "43",
+    "category": "Purchase Journey",
+    "complexity": "Medium",
+    "promptText": "Build an ACKO payment screen with premium summary, UPI input field, saved cards section, and a pay securely CTA with trust badges.",
+    "folderPath": "stress-test/purchase-journey/medium/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "44",
+    "category": "Purchase Journey",
+    "complexity": "Medium",
+    "promptText": "Build an ACKO car insurance owner details form with name, mobile, email, date of birth, and address fields with inline validation.",
+    "folderPath": "stress-test/purchase-journey/medium/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "45",
+    "category": "Purchase Journey",
+    "complexity": "Medium",
+    "promptText": "Build an ACKO plan selection screen with a recommended plan highlighted, plan comparison, and an I need help choosing option.",
+    "folderPath": "stress-test/purchase-journey/medium/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "46",
+    "category": "Purchase Journey",
+    "complexity": "Medium",
+    "promptText": "Build an ACKO policy confirmation screen with policy summary, coverage highlights, next steps section, and share policy CTA.",
+    "folderPath": "stress-test/purchase-journey/medium/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "47",
+    "category": "Purchase Journey",
+    "complexity": "Medium",
+    "promptText": "Build an ACKO car insurance vehicle details screen with editable fields for make, model, variant, RTO, and registration year.",
+    "folderPath": "stress-test/purchase-journey/medium/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "48",
+    "category": "Purchase Journey",
+    "complexity": "Medium",
+    "promptText": "Build an ACKO premium breakdown screen showing base price, add-ons, discounts, GST, and final amount with an edit add-ons option.",
+    "folderPath": "stress-test/purchase-journey/medium/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "49",
+    "category": "Purchase Journey",
+    "complexity": "Medium",
+    "promptText": "Build an ACKO payment failure screen with error message, reason, retry payment CTA, and contact support option.",
+    "folderPath": "stress-test/purchase-journey/medium/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "50",
+    "category": "Purchase Journey",
+    "complexity": "Medium",
+    "promptText": "Build an ACKO car insurance journey progress screen showing a 4-step stepper — vehicle details, plan, add-ons, payment — with current step highlighted.",
+    "folderPath": "stress-test/purchase-journey/medium/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "51",
+    "category": "Purchase Journey",
+    "complexity": "Complex",
+    "promptText": "Build a full ACKO car insurance plan selection screen with stepper, three plan cards, feature comparison, add-on preview, premium summary, and continue CTA.",
+    "folderPath": "stress-test/purchase-journey/complex/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "52",
+    "category": "Purchase Journey",
+    "complexity": "Complex",
+    "promptText": "Build a full ACKO payment screen with stepper, order summary, multiple payment methods, UPI deep link, saved cards, and pay CTA with loading state.",
+    "folderPath": "stress-test/purchase-journey/complex/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "53",
+    "category": "Purchase Journey",
+    "complexity": "Complex",
+    "promptText": "Build a full ACKO policy confirmation screen with success animation placeholder, policy card, coverage summary, garage locator CTA, and share options.",
+    "folderPath": "stress-test/purchase-journey/complex/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "54",
+    "category": "Purchase Journey",
+    "complexity": "Complex",
+    "promptText": "Build a full ACKO add-ons screen with stepper, 8 add-on cards with toggles, running total sidebar, recommended add-ons section, and continue CTA.",
+    "folderPath": "stress-test/purchase-journey/complex/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "55",
+    "category": "Purchase Journey",
+    "complexity": "Complex",
+    "promptText": "Build a full ACKO car insurance details form with stepper, vehicle details section, owner details section, previous policy section, and continue CTA.",
+    "folderPath": "stress-test/purchase-journey/complex/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "56",
+    "category": "Purchase Journey",
+    "complexity": "Complex",
+    "promptText": "Build an ACKO plan selection screen with default, loading, and no plans available states. Show all three states in the same screen using tabs.",
+    "folderPath": "stress-test/purchase-journey/complex/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "57",
+    "category": "Purchase Journey",
+    "complexity": "Complex",
+    "promptText": "Build an ACKO payment screen with default state, processing state, success state, and failure state. Show all four states.",
+    "folderPath": "stress-test/purchase-journey/complex/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "58",
+    "category": "Purchase Journey",
+    "complexity": "Complex",
+    "promptText": "Build a full ACKO health insurance purchase journey screen for family plan selection with member details, sum insured selector, plan cards, and continue CTA.",
+    "folderPath": "stress-test/purchase-journey/complex/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "59",
+    "category": "Purchase Journey",
+    "complexity": "Complex",
+    "promptText": "Build a full ACKO travel insurance purchase screen with trip details form, traveller count, destination input, coverage selector, and get quote CTA.",
+    "folderPath": "stress-test/purchase-journey/complex/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "60",
+    "category": "Purchase Journey",
+    "complexity": "Complex",
+    "promptText": "Build a full ACKO car insurance renewal screen with current policy details, expiry warning, renewal plan options, add-ons, and renew now CTA.",
+    "folderPath": "stress-test/purchase-journey/complex/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "61",
+    "category": "Mobile",
+    "complexity": "Simple",
+    "promptText": "Build an ACKO mobile app home dashboard showing user name, one active policy card, and a quick actions row — file claim, renew, download policy.",
+    "folderPath": "stress-test/mobile/simple/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "62",
+    "category": "Mobile",
+    "complexity": "Simple",
+    "promptText": "Build an ACKO mobile app policy details screen showing policy number, vehicle details, coverage dates, and a download CTA.",
+    "folderPath": "stress-test/mobile/simple/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "63",
+    "category": "Mobile",
+    "complexity": "Simple",
+    "promptText": "Build an ACKO mobile app value added services section showing 4 services — challan check, roadside assistance, fuel delivery, tyre change.",
+    "folderPath": "stress-test/mobile/simple/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "64",
+    "category": "Mobile",
+    "complexity": "Simple",
+    "promptText": "Build an ACKO mobile app home screen header with logo, user avatar, and a notification bell icon.",
+    "folderPath": "stress-test/mobile/simple/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "65",
+    "category": "Mobile",
+    "complexity": "Simple",
+    "promptText": "Build an ACKO mobile app bottom navigation bar with 4 tabs — Home, Policies, Claims, Account.",
+    "folderPath": "stress-test/mobile/simple/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "66",
+    "category": "Mobile",
+    "complexity": "Simple",
+    "promptText": "Build an ACKO mobile app active policy card showing policy type, vehicle number, expiry date, and a renew button.",
+    "folderPath": "stress-test/mobile/simple/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "67",
+    "category": "Mobile",
+    "complexity": "Simple",
+    "promptText": "Build an ACKO mobile app claim status card showing claim number, status — in progress — and last updated date.",
+    "folderPath": "stress-test/mobile/simple/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "68",
+    "category": "Mobile",
+    "complexity": "Simple",
+    "promptText": "Build an ACKO mobile app empty state for the policies screen when the user has no active policies, with a buy insurance CTA.",
+    "folderPath": "stress-test/mobile/simple/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "69",
+    "category": "Mobile",
+    "complexity": "Simple",
+    "promptText": "Build an ACKO mobile app notification screen showing 3 notifications — renewal reminder, claim update, payment confirmation.",
+    "folderPath": "stress-test/mobile/simple/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "70",
+    "category": "Mobile",
+    "complexity": "Simple",
+    "promptText": "Build an ACKO mobile app account screen showing user name, phone number, email, and quick links — help, logout, settings.",
+    "folderPath": "stress-test/mobile/simple/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "71",
+    "category": "Mobile",
+    "complexity": "Medium",
+    "promptText": "Build an ACKO mobile app home dashboard with header, two active policy cards, quick actions row, value added services section, and a promotional banner.",
+    "folderPath": "stress-test/mobile/medium/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "72",
+    "category": "Mobile",
+    "complexity": "Medium",
+    "promptText": "Build an ACKO mobile app policy details screen with policy card, coverage details accordion, documents section, and action buttons — renew, claim, share.",
+    "folderPath": "stress-test/mobile/medium/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "73",
+    "category": "Mobile",
+    "complexity": "Medium",
+    "promptText": "Build an ACKO mobile app value added services screen with a services grid, a recently used section, and a request service CTA.",
+    "folderPath": "stress-test/mobile/medium/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "74",
+    "category": "Mobile",
+    "complexity": "Medium",
+    "promptText": "Build an ACKO mobile app claims screen with active claims list, claim status timeline for the selected claim, and a file new claim CTA.",
+    "folderPath": "stress-test/mobile/medium/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "75",
+    "category": "Mobile",
+    "complexity": "Medium",
+    "promptText": "Build an ACKO mobile app renewal screen with expiring policies list, premium summary, and a renew all CTA.",
+    "folderPath": "stress-test/mobile/medium/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "76",
+    "category": "Mobile",
+    "complexity": "Medium",
+    "promptText": "Build an ACKO mobile app roadside assistance request screen with service type selector, location input, and a request help CTA.",
+    "folderPath": "stress-test/mobile/medium/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "77",
+    "category": "Mobile",
+    "complexity": "Medium",
+    "promptText": "Build an ACKO mobile app challan check screen with vehicle number input, results section showing challan details, and a pay now CTA.",
+    "folderPath": "stress-test/mobile/medium/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "78",
+    "category": "Mobile",
+    "complexity": "Medium",
+    "promptText": "Build an ACKO mobile app home screen with loading skeleton state for all sections — header, policy cards, quick actions, services.",
+    "folderPath": "stress-test/mobile/medium/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "79",
+    "category": "Mobile",
+    "complexity": "Medium",
+    "promptText": "Build an ACKO mobile app policy documents screen with document list — policy copy, tax receipt, endorsement — with download and share options per document.",
+    "folderPath": "stress-test/mobile/medium/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "80",
+    "category": "Mobile",
+    "complexity": "Medium",
+    "promptText": "Build an ACKO mobile app profile edit screen with editable fields for name, email, address, and a save changes CTA.",
+    "folderPath": "stress-test/mobile/medium/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "81",
+    "category": "Mobile",
+    "complexity": "Complex",
+    "promptText": "Build a full ACKO mobile app home screen with header, policy cards carousel, quick actions, value added services grid, promotional banner, and bottom nav.",
+    "folderPath": "stress-test/mobile/complex/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "82",
+    "category": "Mobile",
+    "complexity": "Complex",
+    "promptText": "Build a full ACKO mobile app policy details screen with policy card, coverage accordion, garage locator map placeholder, documents section, and action buttons.",
+    "folderPath": "stress-test/mobile/complex/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "83",
+    "category": "Mobile",
+    "complexity": "Complex",
+    "promptText": "Build a full ACKO mobile app claims flow screen showing claim type selection, damage description form, photo upload section, and submit claim CTA.",
+    "folderPath": "stress-test/mobile/complex/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "84",
+    "category": "Mobile",
+    "complexity": "Complex",
+    "promptText": "Build a full ACKO mobile app home screen with default state, logged out state, and first time user state. Show all three using tabs.",
+    "folderPath": "stress-test/mobile/complex/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "85",
+    "category": "Mobile",
+    "complexity": "Complex",
+    "promptText": "Build a full ACKO mobile app roadside assistance tracking screen with request status, technician details card, live location placeholder, and cancel request option.",
+    "folderPath": "stress-test/mobile/complex/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "86",
+    "category": "Mobile",
+    "complexity": "Complex",
+    "promptText": "Build a full ACKO mobile app renewal flow with expiring policy card, plan options, add-ons toggle, premium summary, and pay now CTA.",
+    "folderPath": "stress-test/mobile/complex/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "87",
+    "category": "Mobile",
+    "complexity": "Complex",
+    "promptText": "Build a full ACKO mobile app value added services screen with categories — roadside, documents, challan, fuel — service cards grid, and request flow for one service.",
+    "folderPath": "stress-test/mobile/complex/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "88",
+    "category": "Mobile",
+    "complexity": "Complex",
+    "promptText": "Build a full ACKO mobile app claim status screen with timeline, status updates list, document upload section, and contact support CTA.",
+    "folderPath": "stress-test/mobile/complex/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "89",
+    "category": "Mobile",
+    "complexity": "Complex",
+    "promptText": "Build a full ACKO mobile app garage locator screen with search input, filter chips — cashless, nearby, open now — garage cards list, and a directions CTA.",
+    "folderPath": "stress-test/mobile/complex/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "90",
+    "category": "Mobile",
+    "complexity": "Complex",
+    "promptText": "Build a full ACKO mobile app onboarding screen with 3 steps — welcome, add your vehicle, get covered — with progress dots and a get started CTA.",
+    "folderPath": "stress-test/mobile/complex/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "91",
+    "category": "Iteration",
+    "complexity": "Iteration 1",
+    "promptText": "Build a basic ACKO car insurance plan selection screen with three plan cards.",
+    "folderPath": "stress-test/iteration-stress/screen-1/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "92",
+    "category": "Iteration",
+    "complexity": "Iteration 2",
+    "promptText": "Take the previous plan selection screen and add a recommended badge to the middle plan.",
+    "folderPath": "stress-test/iteration-stress/screen-1/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "93",
+    "category": "Iteration",
+    "complexity": "Iteration 3",
+    "promptText": "Take the previous plan selection screen and add a feature comparison table below the plan cards.",
+    "folderPath": "stress-test/iteration-stress/screen-1/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "94",
+    "category": "Iteration",
+    "complexity": "Iteration 4",
+    "promptText": "Take the previous plan selection screen and add a premium summary sticky bar at the bottom.",
+    "folderPath": "stress-test/iteration-stress/screen-1/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "95",
+    "category": "Iteration",
+    "complexity": "Iteration 5",
+    "promptText": "Take the previous plan selection screen and add an empty state for when no plans are available.",
+    "folderPath": "stress-test/iteration-stress/screen-1/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "96",
+    "category": "Iteration",
+    "complexity": "Iteration 6",
+    "promptText": "Take the previous plan selection screen and add a loading skeleton state for all plan cards.",
+    "folderPath": "stress-test/iteration-stress/screen-1/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "97",
+    "category": "Iteration",
+    "complexity": "Iteration 7",
+    "promptText": "Take the previous plan selection screen and add an error state with a retry CTA.",
+    "folderPath": "stress-test/iteration-stress/screen-1/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "98",
+    "category": "Iteration",
+    "complexity": "Iteration 8",
+    "promptText": "Take the previous plan selection screen and make the layout responsive for both mobile and desktop.",
+    "folderPath": "stress-test/iteration-stress/screen-1/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "99",
+    "category": "Iteration",
+    "complexity": "Iteration 9",
+    "promptText": "Take the previous plan selection screen and add a help tooltip on the plan names explaining what each plan covers.",
+    "folderPath": "stress-test/iteration-stress/screen-1/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "100",
+    "category": "Iteration",
+    "complexity": "Iteration 10",
+    "promptText": "Take the previous plan selection screen and add animations for plan card selection and CTA hover states.",
+    "folderPath": "stress-test/iteration-stress/screen-1/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "101",
+    "category": "Iteration",
+    "complexity": "Iteration 1",
+    "promptText": "Build a basic ACKO mobile app home dashboard with a policy card and quick actions row.",
+    "folderPath": "stress-test/iteration-stress/screen-2/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "102",
+    "category": "Iteration",
+    "complexity": "Iteration 2",
+    "promptText": "Take the previous home dashboard and add a value added services section below quick actions.",
+    "folderPath": "stress-test/iteration-stress/screen-2/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "103",
+    "category": "Iteration",
+    "complexity": "Iteration 3",
+    "promptText": "Take the previous home dashboard and add a renewal reminder banner for an expiring policy.",
+    "folderPath": "stress-test/iteration-stress/screen-2/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "104",
+    "category": "Iteration",
+    "complexity": "Iteration 4",
+    "promptText": "Take the previous home dashboard and add a claim in progress status card.",
+    "folderPath": "stress-test/iteration-stress/screen-2/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "105",
+    "category": "Iteration",
+    "complexity": "Iteration 5",
+    "promptText": "Take the previous home dashboard and add a loading skeleton state for all sections.",
+    "folderPath": "stress-test/iteration-stress/screen-2/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "106",
+    "category": "Iteration",
+    "complexity": "Iteration 6",
+    "promptText": "Take the previous home dashboard and add an empty state for users with no policies.",
+    "folderPath": "stress-test/iteration-stress/screen-2/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "107",
+    "category": "Iteration",
+    "complexity": "Iteration 7",
+    "promptText": "Take the previous home dashboard and add a promotional banner at the bottom.",
+    "folderPath": "stress-test/iteration-stress/screen-2/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "108",
+    "category": "Iteration",
+    "complexity": "Iteration 8",
+    "promptText": "Take the previous home dashboard and add a notification badge on the bell icon in the header.",
+    "folderPath": "stress-test/iteration-stress/screen-2/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "109",
+    "category": "Iteration",
+    "complexity": "Iteration 9",
+    "promptText": "Take the previous home dashboard and add a greeting message that changes based on time of day.",
+    "folderPath": "stress-test/iteration-stress/screen-2/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "110",
+    "category": "Iteration",
+    "complexity": "Iteration 10",
+    "promptText": "Take the previous home dashboard and add entrance animations for each section using the ACKO animation tokens.",
+    "folderPath": "stress-test/iteration-stress/screen-2/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "111",
+    "category": "Dark Mode",
+    "complexity": "Simple",
+    "promptText": "Build an ACKO car insurance hero section in dark mode with correct token usage for backgrounds, text, and borders.",
+    "folderPath": "stress-test/dark-mode/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "112",
+    "category": "Dark Mode",
+    "complexity": "Simple",
+    "promptText": "Build an ACKO mobile app home dashboard in dark mode with policy card, quick actions, and services section.",
+    "folderPath": "stress-test/dark-mode/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "113",
+    "category": "Dark Mode",
+    "complexity": "Simple",
+    "promptText": "Build an ACKO plan selection screen in dark mode with three plan cards and a recommended badge.",
+    "folderPath": "stress-test/dark-mode/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "114",
+    "category": "Dark Mode",
+    "complexity": "Simple",
+    "promptText": "Build an ACKO payment screen in dark mode with premium summary and payment method options.",
+    "folderPath": "stress-test/dark-mode/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "115",
+    "category": "Dark Mode",
+    "complexity": "Simple",
+    "promptText": "Build an ACKO policy confirmation screen in dark mode with policy details and download CTA.",
+    "folderPath": "stress-test/dark-mode/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "116",
+    "category": "Dark Mode",
+    "complexity": "Medium",
+    "promptText": "Build an ACKO car insurance landing page hero and benefits section in dark mode.",
+    "folderPath": "stress-test/dark-mode/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "117",
+    "category": "Dark Mode",
+    "complexity": "Medium",
+    "promptText": "Build an ACKO mobile app policy details screen in dark mode with coverage accordion and action buttons.",
+    "folderPath": "stress-test/dark-mode/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "118",
+    "category": "Dark Mode",
+    "complexity": "Medium",
+    "promptText": "Build an ACKO add-ons selection screen in dark mode with 6 add-on cards and running total.",
+    "folderPath": "stress-test/dark-mode/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "119",
+    "category": "Dark Mode",
+    "complexity": "Medium",
+    "promptText": "Build an ACKO challan check page in dark mode with vehicle number input and results section.",
+    "folderPath": "stress-test/dark-mode/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "120",
+    "category": "Dark Mode",
+    "complexity": "Medium",
+    "promptText": "Build an ACKO mobile app claims screen in dark mode with claim status timeline and file claim CTA.",
+    "folderPath": "stress-test/dark-mode/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "121",
+    "category": "Dark Mode",
+    "complexity": "Complex",
+    "promptText": "Build a full ACKO car insurance landing page in dark mode with header, hero, benefits, testimonials, and footer.",
+    "folderPath": "stress-test/dark-mode/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "122",
+    "category": "Dark Mode",
+    "complexity": "Complex",
+    "promptText": "Build a full ACKO mobile app home screen in dark mode with all sections — header, policies, quick actions, services, banner.",
+    "folderPath": "stress-test/dark-mode/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "123",
+    "category": "Dark Mode",
+    "complexity": "Complex",
+    "promptText": "Build an ACKO car insurance plan selection screen showing both light and dark mode side by side using a theme toggle.",
+    "folderPath": "stress-test/dark-mode/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "124",
+    "category": "Dark Mode",
+    "complexity": "Complex",
+    "promptText": "Build a full ACKO purchase journey payment screen in dark mode with all states — default, processing, success, failure.",
+    "folderPath": "stress-test/dark-mode/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "125",
+    "category": "Dark Mode",
+    "complexity": "Complex",
+    "promptText": "Build a full ACKO travel insurance landing page in dark mode with hero, coverage highlights, FAQ accordion, and footer.",
+    "folderPath": "stress-test/dark-mode/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "126",
+    "category": "Dark Mode",
+    "complexity": "Targeted",
+    "promptText": "Build any ACKO screen in dark mode. Use only foundation colours from the design system. Do not use any hardcoded hex values.",
+    "folderPath": "stress-test/dark-mode/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "127",
+    "category": "Dark Mode",
+    "complexity": "Targeted",
+    "promptText": "Build an ACKO car insurance hero in dark mode. Do not use Tailwind dark: modifier — use CSS token variables only.",
+    "folderPath": "stress-test/dark-mode/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "128",
+    "category": "Dark Mode",
+    "complexity": "Targeted",
+    "promptText": "Build an ACKO mobile home dashboard in dark mode. Every background, text, and border must use a semantic colour token.",
+    "folderPath": "stress-test/dark-mode/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "129",
+    "category": "Dark Mode",
+    "complexity": "Targeted",
+    "promptText": "Build an ACKO plan selection screen that switches between light and dark mode without any layout shift or flash.",
+    "folderPath": "stress-test/dark-mode/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "130",
+    "category": "Dark Mode",
+    "complexity": "Targeted",
+    "promptText": "Build an ACKO payment screen in dark mode. All interactive states — hover, focus, disabled — must also follow dark mode tokens.",
+    "folderPath": "stress-test/dark-mode/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "131",
+    "category": "Copy-Heavy",
+    "complexity": "Simple",
+    "promptText": "Build an ACKO car insurance policy terms section with 5 coverage clauses, each with a heading and 2-3 sentences of legal-style copy.",
+    "folderPath": "stress-test/copy-heavy/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "132",
+    "category": "Copy-Heavy",
+    "complexity": "Simple",
+    "promptText": "Build an ACKO health insurance exclusions section listing 8 items that are not covered, with a short explanation per item.",
+    "folderPath": "stress-test/copy-heavy/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "133",
+    "category": "Copy-Heavy",
+    "complexity": "Simple",
+    "promptText": "Build an ACKO travel insurance coverage details section with 6 coverage types, each with a heading, description, and sum insured amount.",
+    "folderPath": "stress-test/copy-heavy/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "134",
+    "category": "Copy-Heavy",
+    "complexity": "Medium",
+    "promptText": "Build an ACKO car insurance FAQ section with 6 questions and detailed answers — each answer is 3-4 sentences long.",
+    "folderPath": "stress-test/copy-heavy/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "135",
+    "category": "Copy-Heavy",
+    "complexity": "Medium",
+    "promptText": "Build an ACKO claims process explainer section with 5 steps, each with a heading, 2-sentence description, and a tip callout.",
+    "folderPath": "stress-test/copy-heavy/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "136",
+    "category": "Copy-Heavy",
+    "complexity": "Medium",
+    "promptText": "Build an ACKO health insurance plan details screen with a full coverage table — 10 rows, 3 plan columns, with included and excluded indicators.",
+    "folderPath": "stress-test/copy-heavy/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "137",
+    "category": "Copy-Heavy",
+    "complexity": "Medium",
+    "promptText": "Build an ACKO policy document summary screen with 4 sections — coverage summary, exclusions, claim process, contact details — each with paragraph copy.",
+    "folderPath": "stress-test/copy-heavy/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "138",
+    "category": "Copy-Heavy",
+    "complexity": "Medium",
+    "promptText": "Build an ACKO travel insurance page with a what is covered section — 8 items with icons and descriptions — and a what is not covered section — 6 items.",
+    "folderPath": "stress-test/copy-heavy/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "139",
+    "category": "Copy-Heavy",
+    "complexity": "Complex",
+    "promptText": "Build a full ACKO car insurance policy details page with premium breakdown table, coverage details accordion with long copy, exclusions list, and claim instructions.",
+    "folderPath": "stress-test/copy-heavy/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "140",
+    "category": "Copy-Heavy",
+    "complexity": "Complex",
+    "promptText": "Build a full ACKO health insurance comparison page with three plan cards, a 15-row feature comparison table, and a detailed FAQ section with 5 questions.",
+    "folderPath": "stress-test/copy-heavy/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "141",
+    "category": "Copy-Heavy",
+    "complexity": "Complex",
+    "promptText": "Build an ACKO terms and conditions page with a table of contents, 5 numbered sections with paragraph copy, and a I agree CTA at the bottom.",
+    "folderPath": "stress-test/copy-heavy/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "142",
+    "category": "Copy-Heavy",
+    "complexity": "Targeted",
+    "promptText": "Build an ACKO car insurance benefits section with 6 benefit cards. Each card has a heading and exactly 40 words of copy. Do not truncate.",
+    "folderPath": "stress-test/copy-heavy/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "143",
+    "category": "Copy-Heavy",
+    "complexity": "Targeted",
+    "promptText": "Build an ACKO health insurance page with a dense information section. Use only typography tokens — no hardcoded font sizes or weights.",
+    "folderPath": "stress-test/copy-heavy/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "144",
+    "category": "Copy-Heavy",
+    "complexity": "Targeted",
+    "promptText": "Build an ACKO policy summary screen with 10 line items in a table. Every row must use table tokens and no inline styles.",
+    "folderPath": "stress-test/copy-heavy/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "145",
+    "category": "Copy-Heavy",
+    "complexity": "Targeted",
+    "promptText": "Build an ACKO claims FAQ section with 8 questions. Use the Accordion component from the package. Do not build a custom accordion.",
+    "folderPath": "stress-test/copy-heavy/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "146",
+    "category": "Broken",
+    "complexity": "Vague",
+    "promptText": "Build an insurance screen.",
+    "folderPath": "stress-test/broken-prompts/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "147",
+    "category": "Broken",
+    "complexity": "Vague",
+    "promptText": "Build something for ACKO.",
+    "folderPath": "stress-test/broken-prompts/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "148",
+    "category": "Broken",
+    "complexity": "Vague",
+    "promptText": "Build a form.",
+    "folderPath": "stress-test/broken-prompts/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "149",
+    "category": "Broken",
+    "complexity": "Vague",
+    "promptText": "Build a mobile screen for ACKO.",
+    "folderPath": "stress-test/broken-prompts/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "150",
+    "category": "Broken",
+    "complexity": "Vague",
+    "promptText": "Build a page.",
+    "folderPath": "stress-test/broken-prompts/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "151",
+    "category": "Broken",
+    "complexity": "Incomplete",
+    "promptText": "Build an ACKO car insurance plan selection screen with.",
+    "folderPath": "stress-test/broken-prompts/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "152",
+    "category": "Broken",
+    "complexity": "Incomplete",
+    "promptText": "Build an ACKO payment screen showing the.",
+    "folderPath": "stress-test/broken-prompts/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "153",
+    "category": "Broken",
+    "complexity": "Incomplete",
+    "promptText": "Build a mobile app home dashboard with header and.",
+    "folderPath": "stress-test/broken-prompts/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "154",
+    "category": "Broken",
+    "complexity": "Incomplete",
+    "promptText": "Build an ACKO travel insurance page with coverage and.",
+    "folderPath": "stress-test/broken-prompts/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "155",
+    "category": "Broken",
+    "complexity": "Incomplete",
+    "promptText": "Build a challan check screen with a vehicle number input and a.",
+    "folderPath": "stress-test/broken-prompts/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "156",
+    "category": "Broken",
+    "complexity": "Missing context",
+    "promptText": "Build the next screen in the flow.",
+    "folderPath": "stress-test/broken-prompts/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "157",
+    "category": "Broken",
+    "complexity": "Missing context",
+    "promptText": "Add an error state to the screen.",
+    "folderPath": "stress-test/broken-prompts/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "158",
+    "category": "Broken",
+    "complexity": "Missing context",
+    "promptText": "Make it dark mode.",
+    "folderPath": "stress-test/broken-prompts/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "159",
+    "category": "Broken",
+    "complexity": "Missing context",
+    "promptText": "Build what we discussed.",
+    "folderPath": "stress-test/broken-prompts/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "160",
+    "category": "Broken",
+    "complexity": "Missing context",
+    "promptText": "Update the layout to be more compact.",
+    "folderPath": "stress-test/broken-prompts/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "161",
+    "category": "Contradiction",
+    "complexity": "Simple",
+    "promptText": "Build a minimal ACKO car insurance hero. Include a headline, subtext, quote form, trust bar, testimonials, benefits grid, and how it works section.",
+    "folderPath": "stress-test/contradiction-prompts/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "162",
+    "category": "Contradiction",
+    "complexity": "Simple",
+    "promptText": "Build a simple ACKO plan selection screen. Show all plan details, full feature comparison, add-on previews, premium calculator, and a help section.",
+    "folderPath": "stress-test/contradiction-prompts/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "163",
+    "category": "Contradiction",
+    "complexity": "Simple",
+    "promptText": "Build a clean ACKO mobile home screen. Include policies, claims, services, notifications, promotions, and account settings all on one screen.",
+    "folderPath": "stress-test/contradiction-prompts/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "164",
+    "category": "Contradiction",
+    "complexity": "Medium",
+    "promptText": "Build an ACKO payment screen that feels fast and frictionless. Include 8 payment methods, a full order summary, address form, coupon input, and EMI options.",
+    "folderPath": "stress-test/contradiction-prompts/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "165",
+    "category": "Contradiction",
+    "complexity": "Medium",
+    "promptText": "Build a calm and reassuring ACKO claims screen. Use bright red error colours, large warning icons, and bold urgent typography throughout.",
+    "folderPath": "stress-test/contradiction-prompts/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "166",
+    "category": "Contradiction",
+    "complexity": "Medium",
+    "promptText": "Build an ACKO screen that follows all design system rules. Use custom fonts, hardcoded colours, and build new components from scratch.",
+    "folderPath": "stress-test/contradiction-prompts/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "167",
+    "category": "Contradiction",
+    "complexity": "Medium",
+    "promptText": "Build a mobile-first ACKO screen. Optimise only for desktop with fixed widths, hover-dependent interactions, and non-touch-friendly targets.",
+    "folderPath": "stress-test/contradiction-prompts/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "168",
+    "category": "Contradiction",
+    "complexity": "Medium",
+    "promptText": "Build an ACKO policy details screen that is easy to scan. Include every policy field, sub-clause, and legal term in a single unstructured block.",
+    "folderPath": "stress-test/contradiction-prompts/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "169",
+    "category": "Contradiction",
+    "complexity": "Complex",
+    "promptText": "Build a fast-loading ACKO landing page. Include 20 sections, full-width videos, 30 images, complex animations on every element, and real-time data fetching.",
+    "folderPath": "stress-test/contradiction-prompts/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "170",
+    "category": "Contradiction",
+    "complexity": "Complex",
+    "promptText": "Build a trustworthy ACKO car insurance page. Use playful cartoon illustrations, joke copy, bright neon colours, and a comic sans style font.",
+    "folderPath": "stress-test/contradiction-prompts/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "171",
+    "category": "Contradiction",
+    "complexity": "Complex",
+    "promptText": "Build an ACKO screen that is accessible to all users. Remove all focus states, use colour alone to convey status, and set font size to 10px.",
+    "folderPath": "stress-test/contradiction-prompts/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "172",
+    "category": "Contradiction",
+    "complexity": "Targeted",
+    "promptText": "Build an ACKO plan selection screen. Do not use any components from the ACKO package. Also follow all ACKO design system rules strictly.",
+    "folderPath": "stress-test/contradiction-prompts/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "173",
+    "category": "Contradiction",
+    "complexity": "Targeted",
+    "promptText": "Build an ACKO car insurance page using only foundation colours. Also make every element a different bright colour to create visual variety.",
+    "folderPath": "stress-test/contradiction-prompts/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "174",
+    "category": "Contradiction",
+    "complexity": "Targeted",
+    "promptText": "Build an ACKO mobile screen with no inline styles. Also set exact pixel dimensions on every element using inline styles.",
+    "folderPath": "stress-test/contradiction-prompts/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "175",
+    "category": "Contradiction",
+    "complexity": "Targeted",
+    "promptText": "Build an ACKO payment screen that is production ready. Use placeholder content, incomplete components, and TODO comments throughout.",
+    "folderPath": "stress-test/contradiction-prompts/",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "176",
+    "category": "Detailed",
+    "complexity": "—",
+    "promptText": "Build the ACKO homepage hero section for car insurance. Include a full-width section with a bold headline communicating instant, paperless car insurance, a supporting subtext line, a primary CTA button labeled \"Check your price\", and a trust strip below with 3 icons and labels: \"Settled in 30 minutes\", \"Zero paperwork\", \"4.8★ on App Store\". Use the ACKO brand color system, Typography component for all text, and spacing tokens throughout. No raw HTML tags, no hardcoded pixel values.",
+    "folderPath": "",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "177",
+    "category": "Detailed",
+    "complexity": "—",
+    "promptText": "Build a features section for ACKO's car insurance product page. Display 6 feature cards in a 3-column grid on desktop. Each card has an icon placeholder, a short heading using Typography variant heading-md, and a 2-line description using Typography variant body-sm. Features: Instant claim settlement, Zero depreciation cover, 24/7 roadside assist, Cashless repairs, Personal accident cover, Engine protection. Use Card component from the design system, semantic color tokens for icon backgrounds, and spacing tokens for grid gaps. No inline styles.",
+    "folderPath": "",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "178",
+    "category": "Detailed",
+    "complexity": "—",
+    "promptText": "Build a plan comparison section for ACKO's website. Show 3 plan tiers — Third Party, Comprehensive, and ACKO Total Protect — in a card layout. Highlight the middle card (Comprehensive) as recommended with a badge. Each card includes plan name, monthly price using Typography variant display-sm, a bullet list of 4–5 inclusions, and a CTA button. Use Badge, Card, and Button components. Color tokens for recommended state. Typography component for all text. No hardcoded font sizes.",
+    "folderPath": "",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "179",
+    "category": "Detailed",
+    "complexity": "—",
+    "promptText": "Build the claims page hero and process section for ACKO's website. Hero: headline \"File a claim in under 3 minutes\", subtext, and two CTAs — \"Start a claim\" (primary) and \"Track existing claim\" (ghost). Below the hero, show a 3-step horizontal process flow: Report → Inspect → Settle. Each step has a step number, heading, and one-line description. Use Typography, Button, and spacing tokens throughout. Steps should use a connector line between them. No raw tags, no hardcoded colors.",
+    "folderPath": "",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "180",
+    "category": "Detailed",
+    "complexity": "—",
+    "promptText": "Build ACKO's trust and credibility section for the About page. Include: a headline \"Why 7 crore Indians trust ACKO\", 4 stat blocks in a row (₹900 Cr+ claims paid, 7 Cr+ customers, 30 min average settlement, 4.8★ rating), a short paragraph about ACKO's mission, and a row of 3 media/award logos as placeholder boxes with labels. Use Typography for all text, semantic color tokens for the stat highlight color, and spacing tokens. No inline styles or hardcoded values.",
+    "folderPath": "",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "181",
+    "category": "Detailed",
+    "complexity": "—",
+    "promptText": "Build a blog listing page for ACKO. Include a page header with Typography variant display-sm saying \"Insurance Explained Simply\", a search input field using the TextInput component, and a grid of 6 article cards. Each article card has a category badge, article title in Typography heading-sm, a 2-line excerpt in body-sm, author name, and read time. Use Card, Badge, TextInput, and Typography components. Grid should be 3-column on desktop. Spacing tokens for all gaps and padding.",
+    "folderPath": "",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "182",
+    "category": "Detailed",
+    "complexity": "—",
+    "promptText": "Build ACKO's 404 error page. Centered layout with an illustrated placeholder box (200×200), a headline \"Looks like you took a wrong turn\" in Typography display-sm, a subtext line in body-md, a primary Button labeled \"Go back home\", and a secondary ghost Button labeled \"Contact support\". The page should be vertically centered in the viewport using layout tokens, not inline styles. Use Typography and Button components. No hardcoded heights, no raw tags.",
+    "folderPath": "",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "183",
+    "category": "Detailed",
+    "complexity": "—",
+    "promptText": "Build the vehicle details entry screen for ACKO's car insurance purchase flow. Layout: a progress indicator at the top showing Step 1 of 4, a heading \"Tell us about your car\" in Typography heading-xl, and a form with 3 fields stacked vertically — Registration Number (TextInput with helper text \"e.g. MH02AB1234\"), Manufacturing Year (TextInput), and Fuel Type (3 toggle buttons: Petrol, Diesel, CNG). Below the form, a full-width primary Button labeled \"Continue\". Use TextInput, Button, Typography, and spacing tokens. No native input or button tags.",
+    "folderPath": "",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "184",
+    "category": "Detailed",
+    "complexity": "—",
+    "promptText": "Build the quote results screen for ACKO car insurance. Show a top bar with \"Quotes for MH02AB1234 · Alto 2019\". Below, a filter row with 3 chip/toggle options: All, Comprehensive, Third Party. Then a vertical list of 3 quote cards. Each card: insurer logo placeholder, plan name in Typography heading-sm, annual premium in display-sm with a \"₹\" prefix, 3 key coverage highlights as small badge-style tags, and a \"Select plan\" Button. One card should be marked as \"ACKO Recommended\" with a Badge. Use Card, Badge, Button, Typography, and token-based spacing. No hardcoded values.",
+    "folderPath": "",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "185",
+    "category": "Detailed",
+    "complexity": "—",
+    "promptText": "Build the add-ons selection screen for ACKO's purchase journey. Header: \"Customise your plan\" in Typography heading-xl with a subtext \"Add covers that matter to you\". Show 5 add-on options as toggle cards in a vertical list. Each toggle card has: add-on name in heading-sm, a one-line description in body-sm, price per year in body-md (e.g. \"+₹499/yr\"), and a toggle switch on the right. At the bottom, a sticky footer with total premium summary and a \"Proceed to KYC\" primary Button. Use Card, Button, Typography, and spacing tokens. No inline styles.",
+    "folderPath": "",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "186",
+    "category": "Detailed",
+    "complexity": "—",
+    "promptText": "Build the KYC screen for ACKO's car insurance purchase flow. Progress bar at top showing Step 3 of 4. Heading: \"Verify your details\" in Typography heading-xl. Form fields stacked vertically: Full Name (TextInput), Date of Birth (TextInput with placeholder DD/MM/YYYY), PAN Number (TextInput with helper text \"Required for policies above ₹50,000\"), and Upload RC Copy (a styled upload zone with dashed border, upload icon placeholder, and label \"Drag or click to upload\"). Primary Button \"Save and Continue\" at the bottom. Use TextInput, Button, Typography, spacing tokens. No native input tags.",
+    "folderPath": "",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "187",
+    "category": "Detailed",
+    "complexity": "—",
+    "promptText": "Build the payment screen for ACKO car insurance. Show an order summary card at the top: plan name, coverage type, policy period (1 year), and final premium with a breakdown toggle. Below, a section heading \"Choose payment method\" with 3 options as selectable cards — UPI, Net Banking, Credit/Debit Card — each with an icon placeholder and label. Selected state should use a semantic highlight color token. A sticky bottom bar with total amount and \"Pay ₹6,499\" primary Button. Use Card, Button, Typography, and spacing tokens. No hardcoded colors or font sizes.",
+    "folderPath": "",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "188",
+    "category": "Detailed",
+    "complexity": "—",
+    "promptText": "Build the policy confirmation screen for ACKO. Full-page centered layout. Top: a large success icon placeholder (80×80) with a semantic success color background. Below: Typography display-sm \"Your policy is active!\", a subtext in body-md with policy number. Then a summary card with 4 details in a 2-column grid — Policy Number, Valid Until, Vehicle, Coverage Type. Two Buttons below: \"Download policy\" (primary) and \"Go to dashboard\" (ghost). At the bottom, a trust message in body-sm: \"A copy has been sent to your registered email.\" Use Card, Button, Typography, spacing tokens. No inline styles.",
+    "folderPath": "",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "189",
+    "category": "Detailed",
+    "complexity": "—",
+    "promptText": "Build a policy renewal reminder screen for ACKO's purchase journey. Show a banner at the top with a warning color token background, an icon, and Typography body-md text \"Your policy expires in 7 days\". Below, a summary card with current policy details: vehicle, plan name, expiry date, and last year's premium. A highlighted section showing the renewal quote with new premium and a \"What's changed\" disclosure toggle. Two CTAs: \"Renew now\" (primary, full width) and \"Compare plans\" (ghost, full width). Use Card, Button, Typography, Badge for expiry urgency, and semantic color tokens. No hardcoded values.",
+    "folderPath": "",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "190",
+    "category": "Detailed",
+    "complexity": "—",
+    "promptText": "Build the ACKO mobile homepage screen. Single-column layout optimised for 375px viewport. Top: a sticky header with ACKO logo on the left and a hamburger icon on the right. Below: a hero card with a bold headline in Typography heading-xl, a subtext in body-md, and a full-width primary Button \"Get your quote\". Below the hero: a horizontal scrollable row of 4 product category chips — Car, Bike, Health, Travel. Then a \"Why ACKO\" section with 3 stacked stat rows, each with an icon placeholder, stat number in heading-md, and label in body-sm. Use Card, Button, Typography, and spacing tokens. No inline styles.",
+    "folderPath": "",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "191",
+    "category": "Detailed",
+    "complexity": "—",
+    "promptText": "Build a mobile-optimised quote card screen for ACKO. Full-width single-column layout. Top bar with back arrow, \"Choose your plan\" heading in Typography heading-lg, and a filter icon. Below: a vertical stack of 3 quote cards. Each card: plan name in heading-sm, annual premium in display-sm, 3 coverage tags as compact Badges, a divider, and a full-width \"Select\" Button. One card marked ACKO Recommended with a Badge at the top-right. Card spacing should use spacing tokens. No hardcoded widths, no inline font styles.",
+    "folderPath": "",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "192",
+    "category": "Detailed",
+    "complexity": "—",
+    "promptText": "Build the mobile add-ons screen for ACKO car insurance. Top: back arrow + \"Add covers\" heading in Typography heading-lg. Below: a vertical list of 5 add-on toggle rows. Each row: icon placeholder (40×40 with semantic background), add-on name in heading-sm, price in body-sm muted, and a toggle on the far right. Use a divider between each row. Bottom: a sticky footer bar with \"Total: ₹6,499\" in heading-md and a full-width \"Continue\" primary Button. Use Button, Typography, and spacing tokens. No native button or input tags. No hardcoded pixel values.",
+    "folderPath": "",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "193",
+    "category": "Detailed",
+    "complexity": "—",
+    "promptText": "Build the mobile KYC verification screen for ACKO. Top: a progress bar (3 of 4 steps filled). Heading \"Verify your details\" in Typography heading-lg. Stacked form: Full Name, DOB, PAN — all using TextInput with appropriate labels and helper text. Below the form: an upload card with dashed border, camera icon placeholder, and label \"Upload your RC\" in body-sm. At the bottom: a full-width primary Button \"Continue\". All spacing via tokens. No inline styles, no native input elements.",
+    "folderPath": "",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "194",
+    "category": "Detailed",
+    "complexity": "—",
+    "promptText": "Build the mobile payment screen for ACKO. Top: back arrow + \"Payment\" in Typography heading-lg. An order summary card: plan name, premium amount in display-sm, 1-year coverage label. Section: \"Pay via\" with 3 full-width selectable rows — UPI, Net Banking, Card — each with icon and label. Selected row uses a semantic highlight background token. Sticky bottom bar: \"Total ₹6,499\" + \"Pay Now\" primary Button. Use Card, Button, Typography, spacing tokens. No hardcoded colors.",
+    "folderPath": "",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "195",
+    "category": "Detailed",
+    "complexity": "—",
+    "promptText": "Build the mobile policy dashboard home screen for ACKO. Top: greeting \"Hi Ramnan\" in Typography heading-md, subtext \"Your active policies\" in body-sm. Below: a vertical stack of 2 active policy cards. Each card: product icon placeholder, policy type in heading-sm, vehicle/detail in body-sm, expiry date with a warning Badge if expiring soon, and a \"View details\" ghost Button. Below policies: a \"Quick Actions\" row with 4 icon+label tiles — File Claim, Renew, Download, Support. Use Card, Badge, Button, Typography, and spacing tokens. No raw HTML tags.",
+    "folderPath": "",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "196",
+    "category": "Detailed",
+    "complexity": "—",
+    "promptText": "Build the mobile claim filing initiation screen for ACKO. Top: back arrow + \"File a Claim\" in Typography heading-lg. A stepper showing Step 1 of 3 — \"Describe the incident\". Below: a TextInput labeled \"Registration number\", a dropdown-style selector for \"Type of damage\" (options: Accident, Theft, Natural calamity, Fire), and a large multi-line TextInput labeled \"Brief description\". Below: an image upload row with 3 placeholder boxes with \"+\" icons and a label \"Upload photos (optional)\" in body-sm. Full-width \"Next\" primary Button at the bottom. Use TextInput, Button, Typography, spacing tokens. No native tags.",
+    "folderPath": "",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "197",
+    "category": "Detailed",
+    "complexity": "—",
+    "promptText": "Build the mobile claim status tracking screen for ACKO. Top: back arrow + \"Claim #CL2024001\" in Typography heading-md. A status card at top with a large status badge — \"Under Review\" — in a semantic warning color, claim amount in display-sm, and date filed in body-sm. Below: a vertical timeline with 4 steps — Submitted, Documents Verified, Surveyor Assigned, Settlement. Completed steps use a success token color, current step uses warning, upcoming steps are muted. Each step has a label in body-sm and a timestamp. At the bottom: a \"Contact support\" ghost Button. Use Card, Badge, Button, Typography, spacing tokens.",
+    "folderPath": "",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "198",
+    "category": "Detailed",
+    "complexity": "—",
+    "promptText": "Build the ACKO homepage hero section in dark mode. Full-width dark background using the semantic dark surface token, not a hardcoded hex. Headline in Typography display-lg using a light text token, subtext in body-lg using a muted light token. A primary Button \"Check your price\" using the brand primary token which should remain visible on dark backgrounds. Below: a trust strip with 3 stat items separated by a vertical divider, each using body-sm in a muted light token. All colors must use semantic tokens — no",
+    "folderPath": "",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "199",
+    "category": "Detailed",
+    "complexity": "—",
+    "promptText": "Build the plan selection card in dark mode for ACKO. Card uses a dark elevated surface token for the background. Plan name in Typography heading-md using light text token, premium in display-sm using brand primary token, coverage tags as Badges adapted for dark backgrounds using semantic dark badge tokens. A \"Recommended\" Badge at the top using a semantic highlight token. CTA Button uses primary token. Card border uses a subtle dark border token. No hardcoded hex colors, no rgba(), no inline styles. All dark mode colors via semantic tokens only.",
+    "folderPath": "",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "200",
+    "category": "Detailed",
+    "complexity": "—",
+    "promptText": "Build the dark mode version of the add-ons screen. Background: dark base surface token. Section heading \"Customise your plan\" in Typography heading-xl using light text token. Each add-on row uses a dark card token for the container, add-on name in light text token, price in muted light token, and a toggle using semantic active/inactive state tokens. Dividers between rows using a dark divider token. Sticky footer uses a dark elevated surface token with a primary Button. No hardcoded colors anywhere. Token-based spacing throughout.",
+    "folderPath": "",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "201",
+    "category": "Detailed",
+    "complexity": "—",
+    "promptText": "Build the ACKO policy dashboard in dark mode. Background: dark base surface token. Greeting in Typography heading-md using light text token. Policy cards use dark elevated surface token, policy name in light text, expiry in muted light, warning Badge using semantic warning token adapted for dark. Quick action tiles use a dark card token with icon placeholders and labels in muted light text. All interactive elements (buttons, toggles) use semantic tokens that are legible on dark backgrounds. No hardcoded colors, no rgba(), no inline styles.",
+    "folderPath": "",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "202",
+    "category": "Detailed",
+    "complexity": "—",
+    "promptText": "Build the quote results screen in dark mode for ACKO. Top bar using dark elevated surface token. Filter chips use dark chip token with active state using brand primary token. Quote cards use dark card token. Plan name in light text token, premium in display-sm using primary brand token, coverage tags as dark Badges. The ACKO Recommended card uses a subtle semantic highlight border token to stand out without a hardcoded color. \"Select plan\" Button uses primary token. All spacing via tokens. No hardcoded hex, no rgba(), no inline styles.",
+    "folderPath": "",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "203",
+    "category": "Detailed",
+    "complexity": "—",
+    "promptText": "Build the dark mode claims filing screen for ACKO. Background: dark base surface token. Back arrow + heading using light text token. Form fields (TextInput) styled for dark mode — dark input background token, light placeholder token, light label token, focus state using primary token border. Upload area uses a dark dashed border token with muted light label. Primary Button at bottom uses primary token. All semantic tokens used throughout — no hardcoded colors. Typography component for all text. No native input tags.",
+    "folderPath": "",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "204",
+    "category": "Detailed",
+    "complexity": "—",
+    "promptText": "Build the dark mode policy confirmation screen for ACKO. Full-page dark base surface background token. Success icon placeholder uses a semantic dark success surface token (not hardcoded green). Typography display-sm \"Your policy is active!\" in light text token. Summary card uses dark elevated surface token with a subtle dark border. Detail labels in muted light token, values in light text token. \"Download policy\" primary Button using primary token. \"Go to dashboard\" ghost Button with light border token. Trust message in muted light body-sm. No hardcoded colors, no inline styles.",
+    "folderPath": "",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "205",
+    "category": "Detailed",
+    "complexity": "—",
+    "promptText": "Build the dark mode mobile homepage for ACKO. Single-column mobile layout. Header: dark elevated surface token background, ACKO logo placeholder, hamburger icon in light token. Hero card: dark card token background, headline in Typography heading-xl light text token, CTA Button in primary token. Product category chips in dark chip token, active chip in primary token. Stat rows: icon in dark icon surface token, stat number in light text, label in muted light. All colors semantic tokens only. Spacing tokens throughout. No hardcoded hex, no rgba(), no inline styles.",
+    "folderPath": "",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "206",
+    "category": "Detailed",
+    "complexity": "Iteration 1",
+    "promptText": "Build the plan selection screen for ACKO car insurance. Show 3 plan cards — Third Party, Comprehensive, ACKO Total Protect — in a vertical stack. Each card: plan name in Typography heading-md, annual premium in display-sm, 4 key inclusions as body-sm bullet points, and a \"Select plan\" Button. The Comprehensive card should be visually highlighted as recommended with a Badge and a semantic highlight border token. Progress indicator at the top showing Step 2 of 4. Use Card, Badge, Button, Typography, and spacing tokens. No inline styles, no hardcoded values.",
+    "folderPath": "",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "207",
+    "category": "Detailed",
+    "complexity": "Iteration 2",
+    "promptText": "The PM reviewed the plan selection screen and said: \"The price isn't prominent enough. Users are comparing plans and the premium needs to be the first thing they see — make it bigger, bolder, and place it right below the plan name before the inclusions list. Also the CTA button is too small, make it full width on each card.\" Update the layout accordingly while keeping all tokens and components intact. No hardcoded font sizes — use the correct Typography variant that gives the largest display size available.",
+    "folderPath": "",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "208",
+    "category": "Detailed",
+    "complexity": "Iteration 3",
+    "promptText": "After the PM session, the design lead reviewed and said: \"Cards are fine for mobile but on desktop we need a comparison table. Add a toggle at the top — 'Card view' and 'Compare view'. In compare view, show a table with plans as columns and features as rows with checkmarks and cross marks. The toggle should use our chip/tab component.\" Add the toggle and table view while preserving the card view. Use Typography, Button, and spacing tokens throughout. Table should use semantic border tokens for grid lines.",
+    "folderPath": "",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "209",
+    "category": "Detailed",
+    "complexity": "Iteration 4",
+    "promptText": "Legal reviewed the screen and flagged: \"Every plan card must display a disclaimer at the bottom — 'Premium inclusive of GST. Subject to underwriting.' in a clearly smaller, muted text style. Also the price shown must say 'Starting from' before the amount.\" Make both changes. Disclaimer uses Typography body-xs or the smallest available variant in a muted semantic color token. \"Starting from\" prefix uses the same muted token. No hardcoded",
+    "folderPath": "",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "210",
+    "category": "Detailed",
+    "complexity": "Iteration 5",
+    "promptText": "The UX researcher shared findings: \"Users are overwhelmed by the inclusions list. Replace the 4-bullet list with a single summary line per plan — e.g. 'Covers own damage + third party + personal accident'. Add an expandable 'See full details' toggle below the summary that reveals the full list.\" Implement the collapsed/expanded state with a toggle. Use Typography for summary and detail text. Expanded state should use a smooth reveal. No hardcoded values.",
+    "folderPath": "",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "211",
+    "category": "Detailed",
+    "complexity": "Iteration 6",
+    "promptText": "The business team reviewed and asked: \"Add a small nudge on the Third Party card — 'Most users who chose this later upgraded to Comprehensive'. Display it as a subtle inline banner with a warm background token below the plan name. Also add a 'Most Popular' badge to the Comprehensive card alongside the 'Recommended' badge.\" Add both changes using Badge and semantic color tokens. No hardcoded colors. Typography body-xs for the nudge text.",
+    "folderPath": "",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "212",
+    "category": "Detailed",
+    "complexity": "Iteration 7",
+    "promptText": "QA tested on mobile and reported: \"On mobile, the 3-column comparison table is broken. The card view works fine. Ensure the compare view is hidden on mobile — only show it on tablet and above using responsive layout tokens or Tailwind breakpoints. Also the card CTA buttons are too close together on mobile, increase the gap using spacing tokens.\" Fix both issues. No hardcoded breakpoints — use Tailwind's responsive prefix classes (sm:, md:, lg:) or spacing tokens.",
+    "folderPath": "",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "213",
+    "category": "Detailed",
+    "complexity": "Iteration 8",
+    "promptText": "The accessibility team reviewed and flagged: \"Plan cards don't have sufficient color contrast for the recommended highlight state. Replace the border highlight with a combination of a Badge and a top color strip using the semantic primary token as a background — not just a border. Also all interactive elements must have visible focus states.\" Make the recommended card visually distinct without relying solely on border color. Use semantic tokens. Ensure Button components are used — no native button tags.",
+    "folderPath": "",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "214",
+    "category": "Detailed",
+    "complexity": "Iteration 9",
+    "promptText": "New PM request after another round: \"For the ACKO Total Protect plan, add a savings callout — 'Save ₹1,200 vs buying separately' — displayed as a small highlighted tag below the premium. Also add an info icon next to the plan name that triggers a tooltip explaining what 'Total Protect' includes in one line.\" Add the savings tag using a semantic success color token. Tooltip should appear on hover/focus. Use Typography body-xs for the callout. No hardcoded colors or sizes.",
+    "folderPath": "",
+    "skillFileVersion": "v1"
+  },
+  {
+    "promptNumber": "215",
+    "category": "Detailed",
+    "complexity": "Iteration 10",
+    "promptText": "Final stakeholder review before launch. Consolidated feedback: \"1. The page heading 'Choose your plan' needs a subtext — 'All plans include zero paperwork and instant policy issuance.' 2. Add a trust strip at the bottom of the screen with 3 icons and labels — Secure payment, IRDAI Approved, 4.8★ rated. 3. Ensure spacing between cards is consistent using a single spacing token — no mixed values.\" Implement all 3 changes. Use Typography, spacing tokens, and semantic color tokens throughout. No inline styles. No hardcoded values anywhere.",
+    "folderPath": "",
+    "skillFileVersion": "v1"
+  }
+]

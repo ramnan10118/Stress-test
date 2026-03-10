@@ -1,0 +1,148 @@
+@import "tailwindcss";
+
+@import "@acko/tokens/tokens.css";
+@import "@acko/tokens/theme.css";
+
+/* Euclid Circular B — loaded from CDN */
+@font-face {
+  font-family: "Euclid Circular B";
+  src: url("https://pub-c050457d48794d5bb9ffc2b4649de2c1.r2.dev/Euclid%20Font/EuclidCircularB-Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Euclid Circular B";
+  src: url("https://pub-c050457d48794d5bb9ffc2b4649de2c1.r2.dev/Euclid%20Font/EuclidCircularB-LightItalic.otf") format("opentype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Euclid Circular B";
+  src: url("https://pub-c050457d48794d5bb9ffc2b4649de2c1.r2.dev/Euclid%20Font/EuclidCircularB-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Euclid Circular B";
+  src: url("https://pub-c050457d48794d5bb9ffc2b4649de2c1.r2.dev/Euclid%20Font/EuclidCircularB-RegularItalic.otf") format("opentype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Euclid Circular B";
+  src: url("https://pub-c050457d48794d5bb9ffc2b4649de2c1.r2.dev/Euclid%20Font/EuclidCircularB-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Euclid Circular B";
+  src: url("https://pub-c050457d48794d5bb9ffc2b4649de2c1.r2.dev/Euclid%20Font/EuclidCircularB-MediumItalic.otf") format("opentype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Euclid Circular B";
+  src: url("https://pub-c050457d48794d5bb9ffc2b4649de2c1.r2.dev/Euclid%20Font/EuclidCircularB-Semibold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Euclid Circular B";
+  src: url("https://pub-c050457d48794d5bb9ffc2b4649de2c1.r2.dev/Euclid%20Font/EuclidCircularB-SemiboldItalic.otf") format("opentype");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Euclid Circular B";
+  src: url("https://pub-c050457d48794d5bb9ffc2b4649de2c1.r2.dev/Euclid%20Font/EuclidCircularB-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Euclid Circular B";
+  src: url("https://pub-c050457d48794d5bb9ffc2b4649de2c1.r2.dev/Euclid%20Font/EuclidCircularB-BoldItalic.otf") format("opentype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@import "@acko/css/accordion.css";
+@import "@acko/css/alert.css";
+@import "@acko/css/avatar.css";
+@import "@acko/css/badge.css";
+@import "@acko/css/breadcrumb.css";
+@import "@acko/css/button.css";
+@import "@acko/css/calendar.css";
+@import "@acko/css/card.css";
+@import "@acko/css/checkbox.css";
+@import "@acko/css/dropdown.css";
+@import "@acko/css/field.css";
+@import "@acko/css/input-group.css";
+@import "@acko/css/label.css";
+@import "@acko/css/navigation-wizard.css";
+@import "@acko/css/pagination.css";
+@import "@acko/css/progress.css";
+@import "@acko/css/radio.css";
+@import "@acko/css/scroll-area.css";
+@import "@acko/css/separator.css";
+@import "@acko/css/skeleton.css";
+@import "@acko/css/switch.css";
+@import "@acko/css/table.css";
+@import "@acko/css/tabs.css";
+@import "@acko/css/text-input.css";
+@import "@acko/css/textarea.css";
+@import "@acko/css/toggle.css";
+@import "@acko/css/tooltip.css";
+@import "@acko/css/typography.css";
+
+body {
+  font-family: "Euclid Circular B", system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3 { text-wrap: balance; }
+p { text-wrap: pretty; }
+
+button, a, input, select, label {
+  touch-action: manipulation;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+:focus:not(:focus-visible) { outline: none; }
+
+/* Hover-only on pointer devices */
+@media (hover: hover) and (pointer: fine) {
+  .nav-link:hover { color: var(--color-text-strong) !important; }
+  .footer-link:hover { color: var(--grey-white) !important; }
+}
+
+/* Responsive: hero two-column at 680px+ */
+@media (min-width: 680px) {
+  .hero-grid {
+    grid-template-columns: 1fr 1fr !important;
+  }
+  .desktop-nav {
+    display: flex !important;
+  }
+}
+
+/* Hide desktop nav on mobile */
+@media (max-width: 679px) {
+  .desktop-nav {
+    display: none !important;
+  }
+}
