@@ -223,6 +223,8 @@ const prompts = [
 ];
 
 // ── Lazy load all generated components ───────────────────────────────
+const stressTestModules = import.meta.glob('../stress-test/**/*.tsx');
+
 const componentMap: Record<string, React.LazyExoticComponent<any>> = {};
 prompts.forEach(({ number, category }) => {
   const folder = category === "Website" ? "website"
@@ -244,7 +246,7 @@ prompts.forEach(({ number, category }) => {
 
   const path = subfolder ? `../stress-test/${folder}/${subfolder}/prompt-${number}.tsx` : `../stress-test/${folder}/prompt-${number}.tsx`;
   componentMap[number] = lazy(() =>
-    import(/* @vite-ignore */ path).catch(() => ({
+    (stressTestModules[path] ? (stressTestModules[path] as () => Promise<any>)() : Promise.reject(new Error("not found"))).catch(() => ({
       default: () => (
         <div style={{ padding: "40px", textAlign: "center", color: "#666" }}>
           <p style={{ fontSize: "18px", marginBottom: "8px" }}>⚠️ prompt-{number}.tsx not generated yet</p>
