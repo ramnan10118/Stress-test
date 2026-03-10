@@ -1,0 +1,78 @@
+---
+description: ACKO Stress Test batch runner. Triggers when user types "stress test" followed by prompt numbers (e.g. "stress test 001 to 030"). Reads prompts.json, loads all skill files, generates production-ready React+TS screens, and saves them to the correct folder paths.
+alwaysApply: true
+---
+
+# ACKO Stress Test — Batch Runner
+
+## Trigger
+Activate this rule when the user types "stress test" followed by prompt numbers.
+
+Examples:
+- `stress test 001` — run one prompt
+- `stress test 001 to 030` — run a range
+- `stress test 001, 005, 010` — run specific prompts
+- `stress test 001 to 010, 025, 050` — run mixed
+
+Parse the numbers from the message. Only run those prompts.
+
+---
+
+## Step 1 — Read prompts.json
+Read `prompts.json` from the project root.
+Find only the prompt objects whose `promptNumber` matches what was specified.
+Ignore all others.
+
+## Step 2 — Read all skill files
+Before generating anything, read these files in order:
+1. `skill-orchestrator.md`
+2. `composition.md`
+3. `forms-controls.md`
+4. `animations.md`
+5. `ui-polish.md`
+6. `touch-accessibility.md`
+7. `performance.md`
+8. `primitives.md`
+
+Do not generate anything until all skill files are read.
+
+## Step 3 — Generate each screen
+Use the `promptText` as the generation instruction.
+
+Rules:
+- Output complete, production-ready React + TypeScript code only
+- No placeholders, no TODOs, no comments like "add content here"
+- No hardcoded hex values, pixel values, or arbitrary Tailwind classes
+- Only use components from the ACKO package — import paths listed in `.cursorrules`
+- No inline styles unless the value is a CSS token variable e.g. `var(--color-primary)`
+- Mobile first. Every screen must be fully responsive
+- If a required component does not exist in the ACKO package, add: `// FLAG: [component name] not found in package`
+- If a token does not exist in primitives.md, add: `// FLAG: token [name] not found in primitives`
+- Do not invent components or tokens — flag and move on
+- Raw output only. Do not clean up or self-correct before saving
+
+## Step 4 — Save each file
+- File name: `prompt-[promptNumber].tsx` e.g. `prompt-001.tsx`
+- Save to the exact `folderPath` from the prompt object
+- Create the folder if it does not exist
+- Do not modify the output after saving
+
+## Step 5 — Print completion summary
+After all prompts are done, print:
+
+```
+Batch complete.
+Prompts run: [list]
+Files saved: [n]
+FLAGS raised: [n]
+```
+
+List any flagged prompts with prompt number and flag message.
+
+---
+
+## Integrity Rules
+- Never modify any skill file during generation
+- Never create a CSS variable following token naming format unless it exists in primitives.md
+- Never write back to prompts.json or any config file
+- If a prompt is ambiguous, interpret reasonably and add: `// NOTE: prompt was ambiguous — interpreted as [interpretation]`
