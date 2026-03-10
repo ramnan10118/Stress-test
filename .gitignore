@@ -2,5 +2,7 @@ node_modules/
 .acko-tmp/
 dist/
 service-account.json
+stress-testing-prompts-2b46e9cec8da.json
+*-credentials.json
 .DS_Store
 *.log
